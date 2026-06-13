@@ -1,0 +1,77 @@
+{
+  "station_id": "S17",
+  "eaaf_id": "EAAF085",
+  "station_name": "衡水湖",
+  "coordinates": {
+    "lng": 115.6,
+    "lat": 37.6
+  },
+  "target_species": [
+    "青头潜鸭",
+    "长尾鸭",
+    "遗鸥"
+  ],
+  "updated_at": "2026-06-13 13:14:52",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.241,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.241,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.241,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.226,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.226,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.226,
+      "tide": 0.689,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.063,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

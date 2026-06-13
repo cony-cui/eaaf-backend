@@ -1,0 +1,76 @@
+{
+  "station_id": "S08",
+  "eaaf_id": "EAAF042",
+  "station_name": "三江平原",
+  "coordinates": {
+    "lng": 132.5,
+    "lat": 47.5
+  },
+  "target_species": [
+    "中华秋沙鸭",
+    "丹顶鹤"
+  ],
+  "updated_at": "2026-06-13 13:14:36",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.189,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.189,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.189,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.177,
+      "tide": 0.84,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.177,
+      "tide": 0.84,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.177,
+      "tide": 0.689,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.039,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

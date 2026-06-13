@@ -1,0 +1,75 @@
+{
+  "station_id": "S16",
+  "eaaf_id": "EAAF083",
+  "station_name": "大山包",
+  "coordinates": {
+    "lng": 103.7,
+    "lat": 27.35
+  },
+  "target_species": [
+    "黑颈鹤"
+  ],
+  "updated_at": "2026-06-13 13:14:50",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.248,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.248,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.248,
+      "tide": 0.689,
+      "wind": 0.89,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.233,
+      "tide": 0.84,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.233,
+      "tide": 0.84,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.233,
+      "tide": 0.689,
+      "wind": 0.141,
+      "raw_meta": {
+        "sentinel_ndvi": 0.067,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

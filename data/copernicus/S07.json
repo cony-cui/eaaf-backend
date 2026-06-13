@@ -1,0 +1,77 @@
+{
+  "station_id": "S07",
+  "eaaf_id": "EAAF026",
+  "station_name": "兴凯湖",
+  "coordinates": {
+    "lng": 132.03,
+    "lat": 45.25
+  },
+  "target_species": [
+    "白枕鹤",
+    "东方白鹳",
+    "大天鹅"
+  ],
+  "updated_at": "2026-06-13 13:14:35",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.232,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.232,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.232,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.218,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.218,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.218,
+      "tide": 0.689,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.059,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "S03",
+  "eaaf_id": "EAAF004",
+  "station_name": "双台河口",
+  "coordinates": {
+    "lng": 121.75,
+    "lat": 40.95
+  },
+  "target_species": [
+    "丹顶鹤",
+    "黑嘴鸥",
+    "白鹤"
+  ],
+  "updated_at": "2026-06-13 13:14:27",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.261,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.261,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.261,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.245,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.245,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.245,
+      "tide": 0.689,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.074,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

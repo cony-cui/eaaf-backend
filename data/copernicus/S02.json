@@ -1,0 +1,77 @@
+{
+  "station_id": "S02",
+  "eaaf_id": "EAAF003",
+  "station_name": "香港米埔",
+  "coordinates": {
+    "lng": 114.0,
+    "lat": 22.5
+  },
+  "target_species": [
+    "黑脸琵鹭",
+    "卷羽鹈鹕",
+    "黄嘴白鹭"
+  ],
+  "updated_at": "2026-06-13 13:14:25",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.198,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.198,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.198,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.186,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.186,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.186,
+      "tide": 0.689,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.043,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}

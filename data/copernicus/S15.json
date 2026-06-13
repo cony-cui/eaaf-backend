@@ -1,0 +1,77 @@
+{
+  "station_id": "S15",
+  "eaaf_id": "EAAF082",
+  "station_name": "安庆沿江湿地",
+  "coordinates": {
+    "lng": 116.9,
+    "lat": 30.6
+  },
+  "target_species": [
+    "白鹤",
+    "东方白鹳",
+    "鸿雁"
+  ],
+  "updated_at": "2026-06-13 13:14:48",
+  "data": [
+    {
+      "month": 3,
+      "hsi": 0.286,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.286,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.286,
+      "tide": 0.689,
+      "wind": 0.9,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": 0.14
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.268,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.268,
+      "tide": 0.84,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": -0.18
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.268,
+      "tide": 0.689,
+      "wind": 0.13,
+      "raw_meta": {
+        "sentinel_ndvi": 0.089,
+        "model_ssh_meters": 0.14
+      }
+    }
+  ]
+}
