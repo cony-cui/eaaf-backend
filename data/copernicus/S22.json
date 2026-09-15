@@ -3,15 +3,15 @@
   "eaaf_id": null,
   "station_name": "蛇岛—老铁山",
   "coordinates": {
-    "lng": 121.15,
-    "lat": 38.95
+    "lat": 38.7532596431239,
+    "lng": 121.21188042015547
   },
   "target_species": [
     "黄嘴白鹭",
     "黑脸琵鹭",
     "黑嘴鸥"
   ],
-  "updated_at": "2026-09-15T02:24:35.898Z",
+  "updated_at": "2026-09-15T08:00:01.386395Z",
   "data": [
     {
       "month": 1,
@@ -139,5 +139,6 @@
     "cloned_from": "S03",
     "generated_at": "2026-09-15T02:24:35.898Z",
     "note": "S21/S22 候补站邻站克隆占位；非现场重采真值"
-  }
+  },
+  "habitat_profile": "island_reef"
 }
