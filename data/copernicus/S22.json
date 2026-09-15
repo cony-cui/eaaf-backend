@@ -1,0 +1,143 @@
+{
+  "station_id": "S22",
+  "eaaf_id": null,
+  "station_name": "蛇岛—老铁山",
+  "coordinates": {
+    "lng": 121.15,
+    "lat": 38.95
+  },
+  "target_species": [
+    "黄嘴白鹭",
+    "黑脸琵鹭",
+    "黑嘴鸥"
+  ],
+  "updated_at": "2026-09-15T02:24:35.898Z",
+  "data": [
+    {
+      "month": 1,
+      "hsi": 0.087,
+      "tide": 0.96,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.072,
+        "model_ssh_meters": -0.24
+      }
+    },
+    {
+      "month": 2,
+      "hsi": 0.077,
+      "tide": 0.92,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.07,
+        "model_ssh_meters": -0.277
+      }
+    },
+    {
+      "month": 3,
+      "hsi": 0.413,
+      "tide": 1.02,
+      "wind": 0.818,
+      "raw_meta": {
+        "sentinel_ndvi": 0.071,
+        "model_ssh_meters": -0.178
+      }
+    },
+    {
+      "month": 4,
+      "hsi": 0.488,
+      "tide": 1.12,
+      "wind": 0.818,
+      "raw_meta": {
+        "sentinel_ndvi": 0.071,
+        "model_ssh_meters": -0.084
+      }
+    },
+    {
+      "month": 5,
+      "hsi": 0.583,
+      "tide": 1.28,
+      "wind": 0.818,
+      "raw_meta": {
+        "sentinel_ndvi": 0.068,
+        "model_ssh_meters": 0.081
+      }
+    },
+    {
+      "month": 6,
+      "hsi": 0.165,
+      "tide": 1.39,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.073,
+        "model_ssh_meters": 0.189
+      }
+    },
+    {
+      "month": 7,
+      "hsi": 0.144,
+      "tide": 1.53,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.075,
+        "model_ssh_meters": 0.326
+      }
+    },
+    {
+      "month": 8,
+      "hsi": 0.148,
+      "tide": 1.51,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.08,
+        "model_ssh_meters": 0.311
+      }
+    },
+    {
+      "month": 9,
+      "hsi": 0.539,
+      "tide": 1.5,
+      "wind": 0.769,
+      "raw_meta": {
+        "sentinel_ndvi": 0.079,
+        "model_ssh_meters": 0.296
+      }
+    },
+    {
+      "month": 10,
+      "hsi": 0.575,
+      "tide": 1.41,
+      "wind": 0.769,
+      "raw_meta": {
+        "sentinel_ndvi": 0.087,
+        "model_ssh_meters": 0.212
+      }
+    },
+    {
+      "month": 11,
+      "hsi": 0.548,
+      "tide": 1.22,
+      "wind": 0.769,
+      "raw_meta": {
+        "sentinel_ndvi": 0.093,
+        "model_ssh_meters": 0.021
+      }
+    },
+    {
+      "month": 12,
+      "hsi": 0.128,
+      "tide": 1.11,
+      "wind": 0.231,
+      "raw_meta": {
+        "sentinel_ndvi": 0.077,
+        "model_ssh_meters": -0.092
+      }
+    }
+  ],
+  "provenance": {
+    "kind": "cloned_copernicus",
+    "cloned_from": "S03",
+    "generated_at": "2026-09-15T02:24:35.898Z",
+    "note": "S21/S22 候补站邻站克隆占位；非现场重采真值"
+  }
+}
