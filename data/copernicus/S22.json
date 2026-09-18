@@ -6,139 +6,463 @@
     "lat": 38.7532596431239,
     "lng": 121.21188042015547
   },
-  "target_species": [
-    "黄嘴白鹭",
-    "黑脸琵鹭",
-    "黑嘴鸥"
-  ],
-  "updated_at": "2026-09-15T08:00:01.386395Z",
+  "updated_at": "2026-09-18T01:01:50.754837Z",
+  "habitat_profile": "island_reef",
   "data": [
     {
       "month": 1,
-      "hsi": 0.087,
-      "tide": 0.96,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.072,
-        "model_ssh_meters": -0.24
-      }
+      "hsi": 0.483,
+      "ndvi": 0.3229,
+      "tide": 0.354,
+      "wind": 17.42,
+      "wind_detail": {
+        "speed": 17.42,
+        "direction": 344.2,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.582,
+      "veg_cover_land": 0.727,
+      "mudflat_exposure": null,
+      "temp_c": -1.44
     },
     {
       "month": 2,
-      "hsi": 0.077,
-      "tide": 0.92,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.07,
-        "model_ssh_meters": -0.277
-      }
+      "hsi": 0.478,
+      "ndvi": 0.3054,
+      "tide": 0.354,
+      "wind": 17.32,
+      "wind_detail": {
+        "speed": 17.32,
+        "direction": 328.3,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.014,
+      "nearshore_water_frac": 0.576,
+      "veg_cover_land": 0.727,
+      "mudflat_exposure": null,
+      "temp_c": -0.2
     },
     {
       "month": 3,
-      "hsi": 0.413,
-      "tide": 1.02,
-      "wind": 0.818,
-      "raw_meta": {
-        "sentinel_ndvi": 0.071,
-        "model_ssh_meters": -0.178
-      }
+      "hsi": 0.478,
+      "ndvi": 0.3157,
+      "tide": 0.354,
+      "wind": 15.74,
+      "wind_detail": {
+        "speed": 15.74,
+        "direction": 311.7,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.012,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.719,
+      "mudflat_exposure": null,
+      "temp_c": 4.94
     },
     {
       "month": 4,
-      "hsi": 0.488,
-      "tide": 1.12,
-      "wind": 0.818,
-      "raw_meta": {
-        "sentinel_ndvi": 0.071,
-        "model_ssh_meters": -0.084
-      }
+      "hsi": 0.501,
+      "ndvi": 0.3864,
+      "tide": 0.354,
+      "wind": 16.4,
+      "wind_detail": {
+        "speed": 16.4,
+        "direction": 190.3,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.015,
+      "nearshore_water_frac": 0.574,
+      "veg_cover_land": 0.743,
+      "mudflat_exposure": null,
+      "temp_c": 10.66
     },
     {
       "month": 5,
-      "hsi": 0.583,
-      "tide": 1.28,
-      "wind": 0.818,
-      "raw_meta": {
-        "sentinel_ndvi": 0.068,
-        "model_ssh_meters": 0.081
-      }
+      "hsi": 0.571,
+      "ndvi": 0.4884,
+      "tide": 0.354,
+      "wind": 16.7,
+      "wind_detail": {
+        "speed": 16.7,
+        "direction": 155.6,
+        "direction_label": "东南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.224,
+      "nearshore_water_frac": 0.576,
+      "veg_cover_land": 0.76,
+      "mudflat_exposure": null,
+      "temp_c": 15.93
     },
     {
       "month": 6,
-      "hsi": 0.165,
-      "tide": 1.39,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.073,
-        "model_ssh_meters": 0.189
-      }
+      "hsi": 0.571,
+      "ndvi": 0.5395,
+      "tide": 0.261,
+      "wind": 13.79,
+      "wind_detail": {
+        "speed": 13.79,
+        "direction": 173.1,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.225,
+      "nearshore_water_frac": 0.573,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 20.98
     },
     {
       "month": 7,
-      "hsi": 0.144,
-      "tide": 1.53,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.075,
-        "model_ssh_meters": 0.326
-      }
+      "hsi": 0.539,
+      "ndvi": 0.5594,
+      "tide": 0.354,
+      "wind": 13.91,
+      "wind_detail": {
+        "speed": 13.91,
+        "direction": 159.3,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.12,
+      "nearshore_water_frac": 0.572,
+      "veg_cover_land": 0.766,
+      "mudflat_exposure": null,
+      "temp_c": 24.99
     },
     {
       "month": 8,
-      "hsi": 0.148,
-      "tide": 1.51,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.08,
-        "model_ssh_meters": 0.311
-      }
+      "hsi": 0.514,
+      "ndvi": 0.5727,
+      "tide": 0.414,
+      "wind": 11.5,
+      "wind_detail": {
+        "speed": 11.5,
+        "direction": 72.4,
+        "direction_label": "东风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.026,
+      "nearshore_water_frac": 0.573,
+      "veg_cover_land": 0.775,
+      "mudflat_exposure": null,
+      "temp_c": 25.68
     },
     {
       "month": 9,
-      "hsi": 0.539,
-      "tide": 1.5,
-      "wind": 0.769,
-      "raw_meta": {
-        "sentinel_ndvi": 0.079,
-        "model_ssh_meters": 0.296
-      }
+      "hsi": 0.531,
+      "ndvi": 0.5798,
+      "tide": 0.34,
+      "wind": 12.1,
+      "wind_detail": {
+        "speed": 12.1,
+        "direction": 18.9,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.089,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 22.1
     },
     {
       "month": 10,
-      "hsi": 0.575,
-      "tide": 1.41,
-      "wind": 0.769,
-      "raw_meta": {
-        "sentinel_ndvi": 0.087,
-        "model_ssh_meters": 0.212
-      }
+      "hsi": 0.507,
+      "ndvi": 0.5154,
+      "tide": 0.354,
+      "wind": 14.33,
+      "wind_detail": {
+        "speed": 14.33,
+        "direction": 340.1,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 15.4
     },
     {
       "month": 11,
-      "hsi": 0.548,
-      "tide": 1.22,
-      "wind": 0.769,
-      "raw_meta": {
-        "sentinel_ndvi": 0.093,
-        "model_ssh_meters": 0.021
-      }
+      "hsi": 0.502,
+      "ndvi": 0.3928,
+      "tide": 0.354,
+      "wind": 17.53,
+      "wind_detail": {
+        "speed": 17.53,
+        "direction": 313.0,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.578,
+      "veg_cover_land": 0.742,
+      "mudflat_exposure": null,
+      "temp_c": 9.16
     },
     {
       "month": 12,
-      "hsi": 0.128,
-      "tide": 1.11,
-      "wind": 0.231,
-      "raw_meta": {
-        "sentinel_ndvi": 0.077,
-        "model_ssh_meters": -0.092
-      }
+      "hsi": 0.484,
+      "ndvi": 0.3322,
+      "tide": 0.354,
+      "wind": 18.7,
+      "wind_detail": {
+        "speed": 18.7,
+        "direction": 331.2,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.584,
+      "veg_cover_land": 0.717,
+      "mudflat_exposure": null,
+      "temp_c": 1.31
+    }
+  ],
+  "series": [
+    {
+      "month": 1,
+      "hsi": 0.483,
+      "ndvi": 0.3229,
+      "tide": 0.354,
+      "wind": 17.42,
+      "wind_detail": {
+        "speed": 17.42,
+        "direction": 344.2,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.582,
+      "veg_cover_land": 0.727,
+      "mudflat_exposure": null,
+      "temp_c": -1.44,
+      "year_month": "2025-01"
+    },
+    {
+      "month": 2,
+      "hsi": 0.478,
+      "ndvi": 0.3054,
+      "tide": 0.354,
+      "wind": 17.32,
+      "wind_detail": {
+        "speed": 17.32,
+        "direction": 328.3,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.014,
+      "nearshore_water_frac": 0.576,
+      "veg_cover_land": 0.727,
+      "mudflat_exposure": null,
+      "temp_c": -0.2,
+      "year_month": "2025-02"
+    },
+    {
+      "month": 3,
+      "hsi": 0.478,
+      "ndvi": 0.3157,
+      "tide": 0.354,
+      "wind": 15.74,
+      "wind_detail": {
+        "speed": 15.74,
+        "direction": 311.7,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.012,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.719,
+      "mudflat_exposure": null,
+      "temp_c": 4.94,
+      "year_month": "2025-03"
+    },
+    {
+      "month": 4,
+      "hsi": 0.501,
+      "ndvi": 0.3864,
+      "tide": 0.354,
+      "wind": 16.4,
+      "wind_detail": {
+        "speed": 16.4,
+        "direction": 190.3,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.015,
+      "nearshore_water_frac": 0.574,
+      "veg_cover_land": 0.743,
+      "mudflat_exposure": null,
+      "temp_c": 10.66,
+      "year_month": "2025-04"
+    },
+    {
+      "month": 5,
+      "hsi": 0.571,
+      "ndvi": 0.4884,
+      "tide": 0.354,
+      "wind": 16.7,
+      "wind_detail": {
+        "speed": 16.7,
+        "direction": 155.6,
+        "direction_label": "东南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.224,
+      "nearshore_water_frac": 0.576,
+      "veg_cover_land": 0.76,
+      "mudflat_exposure": null,
+      "temp_c": 15.93,
+      "year_month": "2025-05"
+    },
+    {
+      "month": 6,
+      "hsi": 0.571,
+      "ndvi": 0.5395,
+      "tide": 0.261,
+      "wind": 13.79,
+      "wind_detail": {
+        "speed": 13.79,
+        "direction": 173.1,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.225,
+      "nearshore_water_frac": 0.573,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 20.98,
+      "year_month": "2025-06"
+    },
+    {
+      "month": 7,
+      "hsi": 0.539,
+      "ndvi": 0.5594,
+      "tide": 0.354,
+      "wind": 13.91,
+      "wind_detail": {
+        "speed": 13.91,
+        "direction": 159.3,
+        "direction_label": "南风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.12,
+      "nearshore_water_frac": 0.572,
+      "veg_cover_land": 0.766,
+      "mudflat_exposure": null,
+      "temp_c": 24.99,
+      "year_month": "2025-07"
+    },
+    {
+      "month": 8,
+      "hsi": 0.514,
+      "ndvi": 0.5727,
+      "tide": 0.414,
+      "wind": 11.5,
+      "wind_detail": {
+        "speed": 11.5,
+        "direction": 72.4,
+        "direction_label": "东风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.026,
+      "nearshore_water_frac": 0.573,
+      "veg_cover_land": 0.775,
+      "mudflat_exposure": null,
+      "temp_c": 25.68,
+      "year_month": "2025-08"
+    },
+    {
+      "month": 9,
+      "hsi": 0.531,
+      "ndvi": 0.5798,
+      "tide": 0.34,
+      "wind": 12.1,
+      "wind_detail": {
+        "speed": 12.1,
+        "direction": 18.9,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.089,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 22.1,
+      "year_month": "2025-09"
+    },
+    {
+      "month": 10,
+      "hsi": 0.507,
+      "ndvi": 0.5154,
+      "tide": 0.354,
+      "wind": 14.33,
+      "wind_detail": {
+        "speed": 14.33,
+        "direction": 340.1,
+        "direction_label": "北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.575,
+      "veg_cover_land": 0.764,
+      "mudflat_exposure": null,
+      "temp_c": 15.4,
+      "year_month": "2025-10"
+    },
+    {
+      "month": 11,
+      "hsi": 0.502,
+      "ndvi": 0.3928,
+      "tide": 0.354,
+      "wind": 17.53,
+      "wind_detail": {
+        "speed": 17.53,
+        "direction": 313.0,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.578,
+      "veg_cover_land": 0.742,
+      "mudflat_exposure": null,
+      "temp_c": 9.16,
+      "year_month": "2025-11"
+    },
+    {
+      "month": 12,
+      "hsi": 0.484,
+      "ndvi": 0.3322,
+      "tide": 0.354,
+      "wind": 18.7,
+      "wind_detail": {
+        "speed": 18.7,
+        "direction": 331.2,
+        "direction_label": "西北风",
+        "source": "open-meteo-archive-monthly-mean"
+      },
+      "rocky_intertidal_frac": 0.01,
+      "nearshore_water_frac": 0.584,
+      "veg_cover_land": 0.717,
+      "mudflat_exposure": null,
+      "temp_c": 1.31,
+      "year_month": "2025-12"
     }
   ],
   "provenance": {
-    "kind": "cloned_copernicus",
-    "cloned_from": "S03",
-    "generated_at": "2026-09-15T02:24:35.898Z",
-    "note": "S21/S22 候补站邻站克隆占位；非现场重采真值"
-  },
-  "habitat_profile": "island_reef"
+    "kind": "island_reef_measured_bundle",
+    "optics": "gee-sentinel2-island-reef-monthly",
+    "wind": "open-meteo-archive-at-anchor",
+    "tide": "open-meteo-marine-sea_level_height_msl",
+    "mudflat_exposure": "N/A",
+    "note": "站址实测/再分析；非邻站克隆",
+    "generated_at": "2026-09-18T01:01:50.754851Z"
+  }
 }
