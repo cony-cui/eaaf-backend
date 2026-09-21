@@ -1,517 +1,1329 @@
 {
-  "station_id": "S10",
-  "name": "Dalai Lake",
-  "updated_at": "2026-07-23T12:33:49.617895Z",
-  "data": {
-    "HDVI": [
-      {
-        "date": "2023-01",
-        "value": 0.09
-      },
-      {
-        "date": "2023-02",
-        "value": 0.04
-      },
-      {
-        "date": "2023-03",
-        "value": 2.49
-      },
-      {
-        "date": "2023-04",
-        "value": 9.5
-      },
-      {
-        "date": "2023-05",
-        "value": 21.27
-      },
-      {
-        "date": "2023-06",
-        "value": 45.17
-      },
-      {
-        "date": "2023-07",
-        "value": 92.61
-      },
-      {
-        "date": "2023-08",
-        "value": 97.2
-      },
-      {
-        "date": "2023-09",
-        "value": 94.25
-      },
-      {
-        "date": "2023-10",
-        "value": 29.76
-      },
-      {
-        "date": "2023-11",
-        "value": 0.1
-      },
-      {
-        "date": "2023-12",
-        "value": 0.06
-      },
-      {
-        "date": "2024-01",
-        "value": 0.02
-      },
-      {
-        "date": "2024-02",
-        "value": 0.01
-      },
-      {
-        "date": "2024-03",
-        "value": 0
-      },
-      {
-        "date": "2024-04",
-        "value": 0.79
-      },
-      {
-        "date": "2024-05",
-        "value": 52.53
-      },
-      {
-        "date": "2024-06",
-        "value": 62.79
-      },
-      {
-        "date": "2024-07",
-        "value": 95.59
-      },
-      {
-        "date": "2024-08",
-        "value": 98.96
-      },
-      {
-        "date": "2024-09",
-        "value": 97.72
-      },
-      {
-        "date": "2024-10",
-        "value": 70.92
-      },
-      {
-        "date": "2024-11",
-        "value": 10.14
-      },
-      {
-        "date": "2024-12",
-        "value": 0.02
-      },
-      {
-        "date": "2025-01",
-        "value": 0
-      },
-      {
-        "date": "2025-02",
-        "value": 0
-      },
-      {
-        "date": "2025-03",
-        "value": 0.1
-      },
-      {
-        "date": "2025-04",
-        "value": 2.0
-      },
-      {
-        "date": "2025-05",
-        "value": 64.33
-      },
-      {
-        "date": "2025-06",
-        "value": 95.43
-      },
-      {
-        "date": "2025-07",
-        "value": 97.52
-      },
-      {
-        "date": "2025-08",
-        "value": 99.13
-      },
-      {
-        "date": "2025-09",
-        "value": 98.54
-      },
-      {
-        "date": "2025-10",
-        "value": 92.9
-      },
-      {
-        "date": "2025-11",
-        "value": 1.93
-      },
-      {
-        "date": "2025-12",
-        "value": 1.11
-      },
-      {
-        "date": "2026-01",
-        "value": 0
-      },
-      {
-        "date": "2026-02",
-        "value": 0.15
-      },
-      {
-        "date": "2026-03",
-        "value": 0.11
-      },
-      {
-        "date": "2026-04",
-        "value": 14.04
-      },
-      {
-        "date": "2026-05",
-        "value": 72.4
-      },
-      {
-        "date": "2026-06",
-        "value": 92.46
+  "status": "success",
+  "schemaVersion": "1.0.0",
+  "timestamp": 1790006731937,
+  "generatedAt": "2026-09-21T16:05:31.937991Z",
+  "stationId": "S10",
+  "stationName": "达赉湖（呼伦湖）",
+  "eaafId": "EAAF064",
+  "dataSource": "gee-sentinel2-monthly",
+  "selectedMonth": "2026-08",
+  "opticsCadence": {
+    "series": "monthly_previous_complete",
+    "series_end": "2026-08",
+    "ring": "rolling_composite",
+    "ring_as_of": "2026-09-20"
+  },
+  "recentSnapshot": {
+    "month": "2026-09",
+    "source": "gee-sentinel2-monthly",
+    "quality": "observed-rolling-composite",
+    "generated_at": "2026-09-21T16:05:31.937991Z",
+    "image_count": 5,
+    "valid_pixel_count": 11717,
+    "ndvi_mean": 0.4033,
+    "ndvi_percent": 40.3,
+    "vegetation_cover_percent": 95.5,
+    "mudflat_exposure_percent": 1.0,
+    "water_cover_percent": 0.0,
+    "hsi_score": 34.6,
+    "hsi_level": "poor",
+    "hsi_label": "较差 · 生境承载力偏低",
+    "formula_version": "wetland-hsi-v1",
+    "metric_notes": {
+      "ndvi": "actual monthly mean NDVI",
+      "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+      "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+      "hsi": "deterministic generic wetland indicator"
+    },
+    "as_of": "2026-09-20",
+    "window_days": 16
+  },
+  "uiPayload": {
+    "ndvi_percent": 40.3,
+    "ndvi_label": "植被丰度适中",
+    "ndvi_delta": -5.8,
+    "ndvi_delta_text": "较上月 -5.8%",
+    "ndvi_as_of": "2026-09-20",
+    "ndvi_cadence": "rolling_composite",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-20",
+    "hsi_score": 34.6,
+    "hsi_level": "poor",
+    "hsi_label": "较差 · 生境承载力偏低",
+    "hsi_trend": "down",
+    "hsi_as_of": "2026-09-20",
+    "hsi_cadence": "rolling_composite",
+    "hsi_cadence_label": "近16日合成 · 2026-09-20",
+    "mudflat_exposure_percent": 1.0,
+    "vegetation_cover_percent": 95.5,
+    "water_cover_percent": 0.0,
+    "data_source": "gee-sentinel2-monthly",
+    "data_source_label": "GEE · Sentinel-2 月度数据",
+    "updated_at": "2026-09-21T16:05:31.937991Z",
+    "series_end_month": "2026-08"
+  },
+  "coreData": {
+    "available": true,
+    "station_id": "S10",
+    "selected_month": "2026-08",
+    "ndvi": 0.5171,
+    "ndvi_percent": 51.7,
+    "ndvi_status": "植被丰度适中",
+    "hsi_score": 39.0,
+    "hsi_level": "poor",
+    "hsi_trend": "down",
+    "mudflat_exposure_percent": 0.3,
+    "vegetation_cover_percent": 99.1,
+    "water_cover_percent": 0.0,
+    "data_source": "gee-sentinel2-monthly",
+    "updated_at": "2026-09-20T06:52:48.857394Z",
+    "ring_as_of": "2026-09-20",
+    "ring_cadence": "rolling_composite"
+  },
+  "chartsPayload": {
+    "gee": {
+      "metric": "NDVI",
+      "categories": [
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08"
+      ],
+      "values": [
+        0.0751,
+        0.1487,
+        0.1667,
+        0.2696,
+        0.4383,
+        0.4753,
+        0.3706,
+        0.1666,
+        -0.3067,
+        0.1286,
+        null,
+        0.0695,
+        0.13,
+        0.1122,
+        0.2096,
+        0.3275,
+        0.5026,
+        0.603,
+        0.4661,
+        0.2409,
+        0.1569,
+        0.1149,
+        0.0916,
+        0.0246,
+        0.0717,
+        0.1178,
+        0.205,
+        0.4616,
+        0.5407,
+        0.5498,
+        0.4654,
+        0.2947,
+        0.1902,
+        0.1414,
+        null,
+        0.0159,
+        0.1422,
+        0.1582,
+        0.2631,
+        0.414,
+        0.5746,
+        0.5171
+      ],
+      "calendarMonthCount": 42,
+      "observedMonthCount": 40,
+      "missingMonths": [
+        "2024-01",
+        "2026-01"
+      ],
+      "dataSource": "gee-sentinel2-monthly",
+      "seriesEndMonth": "2026-08"
+    },
+    "habitat": {
+      "categories": [
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08"
+      ],
+      "vegetation_cover_percent": [
+        3.1,
+        9.4,
+        21.1,
+        45.1,
+        92.4,
+        97.1,
+        93.2,
+        29.6,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        2.2,
+        1.4,
+        52.2,
+        62.1,
+        95.5,
+        98.9,
+        97.7,
+        70.6,
+        16.3,
+        0.0,
+        0.0,
+        0.0,
+        2.2,
+        4.4,
+        64.0,
+        95.4,
+        97.5,
+        99.1,
+        98.5,
+        92.8,
+        43.1,
+        0.0,
+        null,
+        0.0,
+        11.9,
+        15.0,
+        72.4,
+        92.4,
+        99.1,
+        99.1
+      ],
+      "mudflat_exposure_percent": [
+        14.7,
+        7.1,
+        2.7,
+        3.6,
+        0.8,
+        1.2,
+        0.9,
+        8.5,
+        0.0,
+        0.0,
+        null,
+        48.3,
+        33.4,
+        11.9,
+        4.7,
+        1.8,
+        1.4,
+        0.5,
+        1.0,
+        3.9,
+        15.8,
+        40.0,
+        28.6,
+        0.0,
+        11.4,
+        12.2,
+        8.5,
+        2.0,
+        0.8,
+        0.4,
+        0.5,
+        0.6,
+        4.3,
+        91.3,
+        null,
+        0.0,
+        14.2,
+        6.0,
+        3.7,
+        1.9,
+        0.4,
+        0.3
+      ],
+      "water_cover_percent": [
+        18.2,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.1,
+        0.0,
+        3.1,
+        100.0,
+        100.0,
+        null,
+        51.7,
+        2.6,
+        7.7,
+        0.1,
+        0.0,
+        0.1,
+        0.0,
+        0.2,
+        2.8,
+        6.1,
+        60.0,
+        71.4,
+        100.0,
+        19.8,
+        11.1,
+        9.7,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        8.7,
+        null,
+        100.0,
+        10.0,
+        0.7,
+        0.1,
+        0.1,
+        0.1,
+        0.0
+      ],
+      "hsi_score": [
+        10.3,
+        9.1,
+        10.9,
+        19.9,
+        35.0,
+        37.4,
+        33.0,
+        15.0,
+        15.8,
+        20.0,
+        null,
+        24.6,
+        14.9,
+        8.7,
+        19.8,
+        25.0,
+        38.0,
+        41.8,
+        37.2,
+        25.1,
+        14.3,
+        24.9,
+        22.6,
+        16.6,
+        9.3,
+        10.2,
+        24.9,
+        36.8,
+        39.5,
+        40.1,
+        37.2,
+        30.3,
+        17.1,
+        32.7,
+        null,
+        16.3,
+        13.1,
+        10.4,
+        25.7,
+        34.6,
+        40.9,
+        39.0
+      ],
+      "seriesEndMonth": "2026-08"
+    }
+  },
+  "observations": [
+    {
+      "month": "2023-03",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 10016,
+      "ndvi_mean": 0.0751,
+      "ndvi_percent": 7.5,
+      "vegetation_cover_percent": 3.1,
+      "mudflat_exposure_percent": 14.7,
+      "water_cover_percent": 18.2,
+      "hsi_score": 10.3,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
       }
-    ],
-    "HSI": [
-      {
-        "date": "2023-01",
-        "value": 40.93
-      },
-      {
-        "date": "2023-02",
-        "value": 45.69
-      },
-      {
-        "date": "2023-03",
-        "value": 18.81
-      },
-      {
-        "date": "2023-04",
-        "value": 4.11
-      },
-      {
-        "date": "2023-05",
-        "value": 5.19
-      },
-      {
-        "date": "2023-06",
-        "value": 10.51
-      },
-      {
-        "date": "2023-07",
-        "value": 18.62
-      },
-      {
-        "date": "2023-08",
-        "value": 19.68
-      },
-      {
-        "date": "2023-09",
-        "value": 19.2
-      },
-      {
-        "date": "2023-10",
-        "value": 8.99
-      },
-      {
-        "date": "2023-11",
-        "value": 45.52
-      },
-      {
-        "date": "2023-12",
-        "value": 44.18
-      },
-      {
-        "date": "2024-01",
-        "value": 45.25
-      },
-      {
-        "date": "2024-02",
-        "value": 45.78
-      },
-      {
-        "date": "2024-03",
-        "value": 47.01
-      },
-      {
-        "date": "2024-04",
-        "value": 12.89
-      },
-      {
-        "date": "2024-05",
-        "value": 12.36
-      },
-      {
-        "date": "2024-06",
-        "value": 13.17
-      },
-      {
-        "date": "2024-07",
-        "value": 19.62
-      },
-      {
-        "date": "2024-08",
-        "value": 19.88
-      },
-      {
-        "date": "2024-09",
-        "value": 19.99
-      },
-      {
-        "date": "2024-10",
-        "value": 15.68
-      },
-      {
-        "date": "2024-11",
-        "value": 7.0
-      },
-      {
-        "date": "2024-12",
-        "value": 44.02
-      },
-      {
-        "date": "2025-01",
-        "value": 45.55
-      },
-      {
-        "date": "2025-02",
-        "value": 47.91
-      },
-      {
-        "date": "2025-03",
-        "value": 31.09
-      },
-      {
-        "date": "2025-04",
-        "value": 9.53
-      },
-      {
-        "date": "2025-05",
-        "value": 17.99
-      },
-      {
-        "date": "2025-06",
-        "value": 19.74
-      },
-      {
-        "date": "2025-07",
-        "value": 19.66
-      },
-      {
-        "date": "2025-08",
-        "value": 19.94
-      },
-      {
-        "date": "2025-09",
-        "value": 19.98
-      },
-      {
-        "date": "2025-10",
-        "value": 19.12
-      },
-      {
-        "date": "2025-11",
-        "value": 32.16
-      },
-      {
-        "date": "2025-12",
-        "value": 41.71
-      },
-      {
-        "date": "2026-01",
-        "value": 45.21
-      },
-      {
-        "date": "2026-02",
-        "value": 41.65
-      },
-      {
-        "date": "2026-03",
-        "value": 42.4
-      },
-      {
-        "date": "2026-04",
-        "value": 4.6
-      },
-      {
-        "date": "2026-05",
-        "value": 15.8
-      },
-      {
-        "date": "2026-06",
-        "value": 19.22
+    },
+    {
+      "month": "2023-04",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 7,
+      "valid_pixel_count": 11581,
+      "ndvi_mean": 0.1487,
+      "ndvi_percent": 14.9,
+      "vegetation_cover_percent": 9.4,
+      "mudflat_exposure_percent": 7.1,
+      "water_cover_percent": 0.0,
+      "hsi_score": 9.1,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
       }
-    ],
-    "Mudflat_Details": [
-      {
-        "date": "2023-01",
-        "value": 80.39
-      },
-      {
-        "date": "2023-02",
-        "value": 89.97
-      },
-      {
-        "date": "2023-03",
-        "value": 31.32
-      },
-      {
-        "date": "2023-04",
-        "value": 4.03
-      },
-      {
-        "date": "2023-05",
-        "value": 1.85
-      },
-      {
-        "date": "2023-06",
-        "value": 2.68
-      },
-      {
-        "date": "2023-07",
-        "value": 0.19
-      },
-      {
-        "date": "2023-08",
-        "value": 0.43
-      },
-      {
-        "date": "2023-09",
-        "value": 0.7
-      },
-      {
-        "date": "2023-10",
-        "value": 4.5
-      },
-      {
-        "date": "2023-11",
-        "value": 89.78
-      },
-      {
-        "date": "2023-12",
-        "value": 85.35
-      },
-      {
-        "date": "2024-01",
-        "value": 88.58
-      },
-      {
-        "date": "2024-02",
-        "value": 88.67
-      },
-      {
-        "date": "2024-03",
-        "value": 92.56
-      },
-      {
-        "date": "2024-04",
-        "value": 21.83
-      },
-      {
-        "date": "2024-05",
-        "value": 3.68
-      },
-      {
-        "date": "2024-06",
-        "value": 1.16
-      },
-      {
-        "date": "2024-07",
-        "value": 0.86
-      },
-      {
-        "date": "2024-08",
-        "value": 0.18
-      },
-      {
-        "date": "2024-09",
-        "value": 0.89
-      },
-      {
-        "date": "2024-10",
-        "value": 2.6
-      },
-      {
-        "date": "2024-11",
-        "value": 9.65
-      },
-      {
-        "date": "2024-12",
-        "value": 86.6
-      },
-      {
-        "date": "2025-01",
-        "value": 90.06
-      },
-      {
-        "date": "2025-02",
-        "value": 94.12
-      },
-      {
-        "date": "2025-03",
-        "value": 59.56
-      },
-      {
-        "date": "2025-04",
-        "value": 15.99
-      },
-      {
-        "date": "2025-05",
-        "value": 7.17
-      },
-      {
-        "date": "2025-06",
-        "value": 1.24
-      },
-      {
-        "date": "2025-07",
-        "value": 0.32
-      },
-      {
-        "date": "2025-08",
-        "value": 0.22
-      },
-      {
-        "date": "2025-09",
-        "value": 0.54
-      },
-      {
-        "date": "2025-10",
-        "value": 1.07
-      },
-      {
-        "date": "2025-11",
-        "value": 63.1
-      },
-      {
-        "date": "2025-12",
-        "value": 82.79
-      },
-      {
-        "date": "2026-01",
-        "value": 90.29
-      },
-      {
-        "date": "2026-02",
-        "value": 82.89
-      },
-      {
-        "date": "2026-03",
-        "value": 84.56
-      },
-      {
-        "date": "2026-04",
-        "value": 3.24
-      },
-      {
-        "date": "2026-05",
-        "value": 2.5
-      },
-      {
-        "date": "2026-06",
-        "value": 0.68
+    },
+    {
+      "month": "2023-05",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 11701,
+      "ndvi_mean": 0.1667,
+      "ndvi_percent": 16.7,
+      "vegetation_cover_percent": 21.1,
+      "mudflat_exposure_percent": 2.7,
+      "water_cover_percent": 0.0,
+      "hsi_score": 10.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
       }
-    ]
-  }
+    },
+    {
+      "month": "2023-06",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 11617,
+      "ndvi_mean": 0.2696,
+      "ndvi_percent": 27.0,
+      "vegetation_cover_percent": 45.1,
+      "mudflat_exposure_percent": 3.6,
+      "water_cover_percent": 0.3,
+      "hsi_score": 19.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-07",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11655,
+      "ndvi_mean": 0.4383,
+      "ndvi_percent": 43.8,
+      "vegetation_cover_percent": 92.4,
+      "mudflat_exposure_percent": 0.8,
+      "water_cover_percent": 0.0,
+      "hsi_score": 35.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-08",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 11687,
+      "ndvi_mean": 0.4753,
+      "ndvi_percent": 47.5,
+      "vegetation_cover_percent": 97.1,
+      "mudflat_exposure_percent": 1.2,
+      "water_cover_percent": 0.1,
+      "hsi_score": 37.4,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-09",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 8,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.3706,
+      "ndvi_percent": 37.1,
+      "vegetation_cover_percent": 93.2,
+      "mudflat_exposure_percent": 0.9,
+      "water_cover_percent": 0.0,
+      "hsi_score": 33.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-10",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.1666,
+      "ndvi_percent": 16.7,
+      "vegetation_cover_percent": 29.6,
+      "mudflat_exposure_percent": 8.5,
+      "water_cover_percent": 3.1,
+      "hsi_score": 15.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-11",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 216,
+      "ndvi_mean": -0.3067,
+      "ndvi_percent": 0.0,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 0.0,
+      "water_cover_percent": 100.0,
+      "hsi_score": 15.8,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2023-12",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 1,
+      "ndvi_mean": 0.1286,
+      "ndvi_percent": 12.9,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 0.0,
+      "water_cover_percent": 100.0,
+      "hsi_score": 20.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-02",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 8,
+      "valid_pixel_count": 2,
+      "ndvi_mean": 0.0695,
+      "ndvi_percent": 7.0,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 48.3,
+      "water_cover_percent": 51.7,
+      "hsi_score": 24.6,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-03",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 11,
+      "valid_pixel_count": 2427,
+      "ndvi_mean": 0.13,
+      "ndvi_percent": 13.0,
+      "vegetation_cover_percent": 2.2,
+      "mudflat_exposure_percent": 33.4,
+      "water_cover_percent": 2.6,
+      "hsi_score": 14.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-04",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 8,
+      "valid_pixel_count": 10593,
+      "ndvi_mean": 0.1122,
+      "ndvi_percent": 11.2,
+      "vegetation_cover_percent": 1.4,
+      "mudflat_exposure_percent": 11.9,
+      "water_cover_percent": 7.7,
+      "hsi_score": 8.7,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-05",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 11531,
+      "ndvi_mean": 0.2096,
+      "ndvi_percent": 21.0,
+      "vegetation_cover_percent": 52.2,
+      "mudflat_exposure_percent": 4.7,
+      "water_cover_percent": 0.1,
+      "hsi_score": 19.8,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-06",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11672,
+      "ndvi_mean": 0.3275,
+      "ndvi_percent": 32.7,
+      "vegetation_cover_percent": 62.1,
+      "mudflat_exposure_percent": 1.8,
+      "water_cover_percent": 0.0,
+      "hsi_score": 25.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-07",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 7,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.5026,
+      "ndvi_percent": 50.3,
+      "vegetation_cover_percent": 95.5,
+      "mudflat_exposure_percent": 1.4,
+      "water_cover_percent": 0.1,
+      "hsi_score": 38.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-08",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 8,
+      "valid_pixel_count": 11688,
+      "ndvi_mean": 0.603,
+      "ndvi_percent": 60.3,
+      "vegetation_cover_percent": 98.9,
+      "mudflat_exposure_percent": 0.5,
+      "water_cover_percent": 0.0,
+      "hsi_score": 41.8,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-09",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.4661,
+      "ndvi_percent": 46.6,
+      "vegetation_cover_percent": 97.7,
+      "mudflat_exposure_percent": 1.0,
+      "water_cover_percent": 0.2,
+      "hsi_score": 37.2,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-10",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.2409,
+      "ndvi_percent": 24.1,
+      "vegetation_cover_percent": 70.6,
+      "mudflat_exposure_percent": 3.9,
+      "water_cover_percent": 2.8,
+      "hsi_score": 25.1,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-11",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.1569,
+      "ndvi_percent": 15.7,
+      "vegetation_cover_percent": 16.3,
+      "mudflat_exposure_percent": 15.8,
+      "water_cover_percent": 6.1,
+      "hsi_score": 14.3,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2024-12",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 12,
+      "valid_pixel_count": 5,
+      "ndvi_mean": 0.1149,
+      "ndvi_percent": 11.5,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 40.0,
+      "water_cover_percent": 60.0,
+      "hsi_score": 24.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-01",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 7,
+      "ndvi_mean": 0.0916,
+      "ndvi_percent": 9.2,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 28.6,
+      "water_cover_percent": 71.4,
+      "hsi_score": 22.6,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-02",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 3,
+      "valid_pixel_count": 17,
+      "ndvi_mean": 0.0246,
+      "ndvi_percent": 2.5,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 0.0,
+      "water_cover_percent": 100.0,
+      "hsi_score": 16.6,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-03",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 9,
+      "valid_pixel_count": 9249,
+      "ndvi_mean": 0.0717,
+      "ndvi_percent": 7.2,
+      "vegetation_cover_percent": 2.2,
+      "mudflat_exposure_percent": 11.4,
+      "water_cover_percent": 19.8,
+      "hsi_score": 9.3,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-04",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11264,
+      "ndvi_mean": 0.1178,
+      "ndvi_percent": 11.8,
+      "vegetation_cover_percent": 4.4,
+      "mudflat_exposure_percent": 12.2,
+      "water_cover_percent": 11.1,
+      "hsi_score": 10.2,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-05",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 15,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.205,
+      "ndvi_percent": 20.5,
+      "vegetation_cover_percent": 64.0,
+      "mudflat_exposure_percent": 8.5,
+      "water_cover_percent": 9.7,
+      "hsi_score": 24.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-06",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 15,
+      "valid_pixel_count": 11707,
+      "ndvi_mean": 0.4616,
+      "ndvi_percent": 46.2,
+      "vegetation_cover_percent": 95.4,
+      "mudflat_exposure_percent": 2.0,
+      "water_cover_percent": 0.1,
+      "hsi_score": 36.8,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-07",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 11,
+      "valid_pixel_count": 11706,
+      "ndvi_mean": 0.5407,
+      "ndvi_percent": 54.1,
+      "vegetation_cover_percent": 97.5,
+      "mudflat_exposure_percent": 0.8,
+      "water_cover_percent": 0.0,
+      "hsi_score": 39.5,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-08",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 14,
+      "valid_pixel_count": 11700,
+      "ndvi_mean": 0.5498,
+      "ndvi_percent": 55.0,
+      "vegetation_cover_percent": 99.1,
+      "mudflat_exposure_percent": 0.4,
+      "water_cover_percent": 0.0,
+      "hsi_score": 40.1,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-09",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 12,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.4654,
+      "ndvi_percent": 46.5,
+      "vegetation_cover_percent": 98.5,
+      "mudflat_exposure_percent": 0.5,
+      "water_cover_percent": 0.0,
+      "hsi_score": 37.2,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-10",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 12,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.2947,
+      "ndvi_percent": 29.5,
+      "vegetation_cover_percent": 92.8,
+      "mudflat_exposure_percent": 0.6,
+      "water_cover_percent": 0.0,
+      "hsi_score": 30.3,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-11",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 7,
+      "valid_pixel_count": 11717,
+      "ndvi_mean": 0.1902,
+      "ndvi_percent": 19.0,
+      "vegetation_cover_percent": 43.1,
+      "mudflat_exposure_percent": 4.3,
+      "water_cover_percent": 0.5,
+      "hsi_score": 17.1,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2025-12",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 7,
+      "valid_pixel_count": 46,
+      "ndvi_mean": 0.1414,
+      "ndvi_percent": 14.1,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 91.3,
+      "water_cover_percent": 8.7,
+      "hsi_score": 32.7,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-02",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 6,
+      "valid_pixel_count": 6,
+      "ndvi_mean": 0.0159,
+      "ndvi_percent": 1.6,
+      "vegetation_cover_percent": 0.0,
+      "mudflat_exposure_percent": 0.0,
+      "water_cover_percent": 100.0,
+      "hsi_score": 16.3,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-03",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 10543,
+      "ndvi_mean": 0.1422,
+      "ndvi_percent": 14.2,
+      "vegetation_cover_percent": 11.9,
+      "mudflat_exposure_percent": 14.2,
+      "water_cover_percent": 10.0,
+      "hsi_score": 13.1,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-04",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 16,
+      "valid_pixel_count": 11715,
+      "ndvi_mean": 0.1582,
+      "ndvi_percent": 15.8,
+      "vegetation_cover_percent": 15.0,
+      "mudflat_exposure_percent": 6.0,
+      "water_cover_percent": 0.7,
+      "hsi_score": 10.4,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-05",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 14,
+      "valid_pixel_count": 11532,
+      "ndvi_mean": 0.2631,
+      "ndvi_percent": 26.3,
+      "vegetation_cover_percent": 72.4,
+      "mudflat_exposure_percent": 3.7,
+      "water_cover_percent": 0.1,
+      "hsi_score": 25.7,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-06",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-07T08:11:52.020520Z",
+      "image_count": 10,
+      "valid_pixel_count": 11400,
+      "ndvi_mean": 0.414,
+      "ndvi_percent": 41.4,
+      "vegetation_cover_percent": 92.4,
+      "mudflat_exposure_percent": 1.9,
+      "water_cover_percent": 0.1,
+      "hsi_score": 34.6,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-07",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-08-30T06:38:29.200740Z",
+      "image_count": 11,
+      "valid_pixel_count": 11648,
+      "ndvi_mean": 0.5746,
+      "ndvi_percent": 57.5,
+      "vegetation_cover_percent": 99.1,
+      "mudflat_exposure_percent": 0.4,
+      "water_cover_percent": 0.1,
+      "hsi_score": 40.9,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-08",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-20T06:52:48.857394Z",
+      "image_count": 13,
+      "valid_pixel_count": 11650,
+      "ndvi_mean": 0.5171,
+      "ndvi_percent": 51.7,
+      "vegetation_cover_percent": 99.1,
+      "mudflat_exposure_percent": 0.3,
+      "water_cover_percent": 0.0,
+      "hsi_score": 39.0,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    }
+  ]
 }
