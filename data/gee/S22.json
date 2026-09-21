@@ -1,1223 +1,1751 @@
 {
-  "station_id": "S22",
-  "station_name": "蛇岛—老铁山",
-  "updated_at": "2026-09-18T00:56:50.437626Z",
-  "NDVI": [
-    {
-      "date": "2023-01",
-      "value": 0.3483
+  "status": "success",
+  "schemaVersion": "1.0.0",
+  "timestamp": 1789883629865,
+  "generatedAt": "2026-09-20T05:53:49.865412Z",
+  "stationId": "S22",
+  "stationName": "蛇岛—老铁山",
+  "eaafId": null,
+  "dataSource": "gee-sentinel2-island-reef-monthly",
+  "selectedMonth": "2026-08",
+  "habitatProfile": "island_reef",
+  "uiPayload": {
+    "ndvi_percent": 56.9,
+    "ndvi_label": "陆域植被适中",
+    "ndvi_delta": 0.8,
+    "ndvi_delta_text": "较上月 +0.8%",
+    "hsi_score": 55.9,
+    "hsi_level": "good",
+    "hsi_label": "良好 · 持续监测",
+    "hsi_trend": "down",
+    "mudflat_exposure_percent": null,
+    "rocky_intertidal_frac_percent": 18.4,
+    "vegetation_cover_percent": 76.8,
+    "water_cover_percent": 57.1,
+    "nearshore_water_frac_percent": 57.1,
+    "data_source": "gee-sentinel2-island-reef-monthly",
+    "data_source_label": "GEE · 岛礁 AOI Sentinel-2 月度实测",
+    "updated_at": "2026-09-20T05:53:49.865412Z"
+  },
+  "coreData": {
+    "available": true,
+    "station_id": "S22",
+    "selected_month": "2026-08",
+    "ndvi": 0.5694,
+    "ndvi_percent": 56.9,
+    "ndvi_status": "陆域植被适中",
+    "hsi_score": 55.9,
+    "hsi_level": "good",
+    "hsi_trend": "down",
+    "mudflat_exposure_percent": null,
+    "rocky_intertidal_frac_percent": 18.4,
+    "vegetation_cover_percent": 76.8,
+    "water_cover_percent": 57.1,
+    "data_source": "gee-sentinel2-island-reef-monthly",
+    "formula_version": "island-reef-hsi-v1",
+    "updated_at": "2026-09-20T05:53:49.865412Z"
+  },
+  "chartsPayload": {
+    "gee": {
+      "metric": "land_only_NDVI",
+      "categories": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08"
+      ],
+      "values": [
+        0.3483,
+        0.3207,
+        0.3131,
+        0.3798,
+        0.4893,
+        0.5488,
+        0.5514,
+        0.5798,
+        0.5719,
+        0.4975,
+        0.414,
+        0.2661,
+        0.3253,
+        0.3264,
+        0.3021,
+        0.3637,
+        0.5367,
+        0.5486,
+        0.5321,
+        0.5655,
+        0.5775,
+        0.5106,
+        0.3919,
+        0.3655,
+        0.3229,
+        0.3054,
+        0.3157,
+        0.3864,
+        0.4884,
+        0.5395,
+        0.5594,
+        0.5727,
+        0.5798,
+        0.5154,
+        0.3928,
+        0.3322,
+        0.354,
+        0.3158,
+        0.2546,
+        0.4173,
+        0.5263,
+        0.576,
+        0.5612,
+        0.5694
+      ],
+      "calendarMonthCount": 44,
+      "observedMonthCount": 44,
+      "missingMonths": [],
+      "dataSource": "gee-sentinel2-island-reef-monthly"
     },
-    {
-      "date": "2023-02",
-      "value": 0.3207
-    },
-    {
-      "date": "2023-03",
-      "value": 0.3131
-    },
-    {
-      "date": "2023-04",
-      "value": 0.3798
-    },
-    {
-      "date": "2023-05",
-      "value": 0.4893
-    },
-    {
-      "date": "2023-06",
-      "value": 0.5488
-    },
-    {
-      "date": "2023-07",
-      "value": 0.5514
-    },
-    {
-      "date": "2023-08",
-      "value": 0.5798
-    },
-    {
-      "date": "2023-09",
-      "value": 0.5719
-    },
-    {
-      "date": "2023-10",
-      "value": 0.4975
-    },
-    {
-      "date": "2023-11",
-      "value": 0.414
-    },
-    {
-      "date": "2023-12",
-      "value": 0.2661
-    },
-    {
-      "date": "2024-01",
-      "value": 0.3253
-    },
-    {
-      "date": "2024-02",
-      "value": 0.3264
-    },
-    {
-      "date": "2024-03",
-      "value": 0.3021
-    },
-    {
-      "date": "2024-04",
-      "value": 0.3637
-    },
-    {
-      "date": "2024-05",
-      "value": 0.5367
-    },
-    {
-      "date": "2024-06",
-      "value": 0.5486
-    },
-    {
-      "date": "2024-07",
-      "value": 0.5321
-    },
-    {
-      "date": "2024-08",
-      "value": 0.5655
-    },
-    {
-      "date": "2024-09",
-      "value": 0.5775
-    },
-    {
-      "date": "2024-10",
-      "value": 0.5106
-    },
-    {
-      "date": "2024-11",
-      "value": 0.3919
-    },
-    {
-      "date": "2024-12",
-      "value": 0.3655
-    },
-    {
-      "date": "2025-01",
-      "value": 0.3229
-    },
-    {
-      "date": "2025-02",
-      "value": 0.3054
-    },
-    {
-      "date": "2025-03",
-      "value": 0.3157
-    },
-    {
-      "date": "2025-04",
-      "value": 0.3864
-    },
-    {
-      "date": "2025-05",
-      "value": 0.4884
-    },
-    {
-      "date": "2025-06",
-      "value": 0.5395
-    },
-    {
-      "date": "2025-07",
-      "value": 0.5594
-    },
-    {
-      "date": "2025-08",
-      "value": 0.5727
-    },
-    {
-      "date": "2025-09",
-      "value": 0.5798
-    },
-    {
-      "date": "2025-10",
-      "value": 0.5154
-    },
-    {
-      "date": "2025-11",
-      "value": 0.3928
-    },
-    {
-      "date": "2025-12",
-      "value": 0.3322
-    },
-    {
-      "date": "2026-01",
-      "value": 0.354
-    },
-    {
-      "date": "2026-02",
-      "value": 0.3158
-    },
-    {
-      "date": "2026-03",
-      "value": 0.2546
-    },
-    {
-      "date": "2026-04",
-      "value": 0.4173
-    },
-    {
-      "date": "2026-05",
-      "value": 0.5263
-    },
-    {
-      "date": "2026-06",
-      "value": 0.576
-    },
-    {
-      "date": "2026-07",
-      "value": 0.5612
+    "habitat": {
+      "categories": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08"
+      ],
+      "vegetation_cover_percent": [
+        73.4,
+        73.6,
+        73.2,
+        75.1,
+        76.0,
+        76.4,
+        76.3,
+        77.1,
+        76.8,
+        75.7,
+        75.2,
+        70.3,
+        70.5,
+        73.3,
+        73.4,
+        73.6,
+        76.6,
+        76.5,
+        76.9,
+        77.2,
+        77.0,
+        75.9,
+        74.7,
+        73.0,
+        72.7,
+        72.7,
+        71.9,
+        74.3,
+        76.0,
+        76.4,
+        76.6,
+        77.5,
+        76.4,
+        76.4,
+        74.2,
+        71.7,
+        73.1,
+        72.7,
+        67.8,
+        75.5,
+        76.6,
+        77.0,
+        76.8,
+        76.8
+      ],
+      "mudflat_exposure_percent": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "rocky_intertidal_frac_percent": [
+        1.6,
+        1.6,
+        1.7,
+        1.4,
+        2.9,
+        22.1,
+        22.8,
+        8.5,
+        1.5,
+        1.6,
+        1.4,
+        1.9,
+        2.3,
+        1.4,
+        1.4,
+        1.6,
+        13.9,
+        22.2,
+        9.3,
+        1.8,
+        1.1,
+        1.4,
+        1.1,
+        0.9,
+        1.0,
+        1.4,
+        1.2,
+        1.5,
+        22.4,
+        22.5,
+        12.0,
+        2.6,
+        8.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.3,
+        1.1,
+        1.5,
+        18.5,
+        8.3,
+        22.2,
+        18.4
+      ],
+      "water_cover_percent": [
+        58.0,
+        58.0,
+        58.1,
+        57.3,
+        57.3,
+        57.1,
+        57.2,
+        57.3,
+        57.4,
+        58.0,
+        58.1,
+        59.7,
+        60.0,
+        57.9,
+        57.5,
+        57.5,
+        57.1,
+        56.9,
+        57.4,
+        57.3,
+        57.5,
+        57.7,
+        57.5,
+        57.9,
+        58.2,
+        57.6,
+        57.5,
+        57.4,
+        57.6,
+        57.3,
+        57.2,
+        57.3,
+        57.5,
+        57.5,
+        57.8,
+        58.4,
+        58.1,
+        58.0,
+        57.9,
+        57.6,
+        57.2,
+        57.1,
+        57.3,
+        57.1
+      ],
+      "nearshore_water_frac_percent": [
+        58.0,
+        58.0,
+        58.1,
+        57.3,
+        57.3,
+        57.1,
+        57.2,
+        57.3,
+        57.4,
+        58.0,
+        58.1,
+        59.7,
+        60.0,
+        57.9,
+        57.5,
+        57.5,
+        57.1,
+        56.9,
+        57.4,
+        57.3,
+        57.5,
+        57.7,
+        57.5,
+        57.9,
+        58.2,
+        57.6,
+        57.5,
+        57.4,
+        57.6,
+        57.3,
+        57.2,
+        57.3,
+        57.5,
+        57.5,
+        57.8,
+        58.4,
+        58.1,
+        58.0,
+        57.9,
+        57.6,
+        57.2,
+        57.1,
+        57.3,
+        57.1
+      ],
+      "hsi_score": [
+        49.2,
+        48.5,
+        48.3,
+        50.0,
+        51.1,
+        56.9,
+        57.1,
+        53.0,
+        50.9,
+        50.9,
+        50.8,
+        47.2,
+        48.9,
+        48.5,
+        47.8,
+        49.4,
+        54.5,
+        56.9,
+        53.2,
+        51.0,
+        50.8,
+        50.8,
+        50.2,
+        49.3,
+        48.3,
+        47.8,
+        47.8,
+        50.1,
+        57.1,
+        57.1,
+        53.9,
+        51.4,
+        53.1,
+        50.7,
+        50.2,
+        48.4,
+        49.1,
+        48.1,
+        45.5,
+        50.7,
+        55.9,
+        52.9,
+        57.1,
+        55.9
+      ]
     }
-  ],
-  "EVI": [
-    {
-      "date": "2023-01",
-      "value": 0.2961
-    },
-    {
-      "date": "2023-02",
-      "value": 0.2726
-    },
-    {
-      "date": "2023-03",
-      "value": 0.2661
-    },
-    {
-      "date": "2023-04",
-      "value": 0.3228
-    },
-    {
-      "date": "2023-05",
-      "value": 0.4159
-    },
-    {
-      "date": "2023-06",
-      "value": 0.4665
-    },
-    {
-      "date": "2023-07",
-      "value": 0.4687
-    },
-    {
-      "date": "2023-08",
-      "value": 0.4928
-    },
-    {
-      "date": "2023-09",
-      "value": 0.4861
-    },
-    {
-      "date": "2023-10",
-      "value": 0.4229
-    },
-    {
-      "date": "2023-11",
-      "value": 0.3519
-    },
-    {
-      "date": "2023-12",
-      "value": 0.2262
-    },
-    {
-      "date": "2024-01",
-      "value": 0.2765
-    },
-    {
-      "date": "2024-02",
-      "value": 0.2774
-    },
-    {
-      "date": "2024-03",
-      "value": 0.2568
-    },
-    {
-      "date": "2024-04",
-      "value": 0.3091
-    },
-    {
-      "date": "2024-05",
-      "value": 0.4562
-    },
-    {
-      "date": "2024-06",
-      "value": 0.4663
-    },
-    {
-      "date": "2024-07",
-      "value": 0.4523
-    },
-    {
-      "date": "2024-08",
-      "value": 0.4807
-    },
-    {
-      "date": "2024-09",
-      "value": 0.4909
-    },
-    {
-      "date": "2024-10",
-      "value": 0.434
-    },
-    {
-      "date": "2024-11",
-      "value": 0.3331
-    },
-    {
-      "date": "2024-12",
-      "value": 0.3107
-    },
-    {
-      "date": "2025-01",
-      "value": 0.2745
-    },
-    {
-      "date": "2025-02",
-      "value": 0.2596
-    },
-    {
-      "date": "2025-03",
-      "value": 0.2683
-    },
-    {
-      "date": "2025-04",
-      "value": 0.3284
-    },
-    {
-      "date": "2025-05",
-      "value": 0.4151
-    },
-    {
-      "date": "2025-06",
-      "value": 0.4586
-    },
-    {
-      "date": "2025-07",
-      "value": 0.4755
-    },
-    {
-      "date": "2025-08",
-      "value": 0.4868
-    },
-    {
-      "date": "2025-09",
-      "value": 0.4928
-    },
-    {
-      "date": "2025-10",
-      "value": 0.4381
-    },
-    {
-      "date": "2025-11",
-      "value": 0.3339
-    },
-    {
-      "date": "2025-12",
-      "value": 0.2824
-    },
-    {
-      "date": "2026-01",
-      "value": 0.3009
-    },
-    {
-      "date": "2026-02",
-      "value": 0.2684
-    },
-    {
-      "date": "2026-03",
-      "value": 0.2164
-    },
-    {
-      "date": "2026-04",
-      "value": 0.3547
-    },
-    {
-      "date": "2026-05",
-      "value": 0.4474
-    },
-    {
-      "date": "2026-06",
-      "value": 0.4896
-    },
-    {
-      "date": "2026-07",
-      "value": 0.477
-    }
-  ],
-  "NDWI": [
-    {
-      "date": "2023-01",
-      "value": 0.132
-    },
-    {
-      "date": "2023-02",
-      "value": 0.132
-    },
-    {
-      "date": "2023-03",
-      "value": 0.1324
-    },
-    {
-      "date": "2023-04",
-      "value": 0.1292
-    },
-    {
-      "date": "2023-05",
-      "value": 0.1292
-    },
-    {
-      "date": "2023-06",
-      "value": 0.1284
-    },
-    {
-      "date": "2023-07",
-      "value": 0.1288
-    },
-    {
-      "date": "2023-08",
-      "value": 0.1292
-    },
-    {
-      "date": "2023-09",
-      "value": 0.1296
-    },
-    {
-      "date": "2023-10",
-      "value": 0.132
-    },
-    {
-      "date": "2023-11",
-      "value": 0.1324
-    },
-    {
-      "date": "2023-12",
-      "value": 0.1388
-    },
-    {
-      "date": "2024-01",
-      "value": 0.14
-    },
-    {
-      "date": "2024-02",
-      "value": 0.1316
-    },
-    {
-      "date": "2024-03",
-      "value": 0.13
-    },
-    {
-      "date": "2024-04",
-      "value": 0.13
-    },
-    {
-      "date": "2024-05",
-      "value": 0.1284
-    },
-    {
-      "date": "2024-06",
-      "value": 0.1276
-    },
-    {
-      "date": "2024-07",
-      "value": 0.1296
-    },
-    {
-      "date": "2024-08",
-      "value": 0.1292
-    },
-    {
-      "date": "2024-09",
-      "value": 0.13
-    },
-    {
-      "date": "2024-10",
-      "value": 0.1308
-    },
-    {
-      "date": "2024-11",
-      "value": 0.13
-    },
-    {
-      "date": "2024-12",
-      "value": 0.1316
-    },
-    {
-      "date": "2025-01",
-      "value": 0.1328
-    },
-    {
-      "date": "2025-02",
-      "value": 0.1304
-    },
-    {
-      "date": "2025-03",
-      "value": 0.13
-    },
-    {
-      "date": "2025-04",
-      "value": 0.1296
-    },
-    {
-      "date": "2025-05",
-      "value": 0.1304
-    },
-    {
-      "date": "2025-06",
-      "value": 0.1292
-    },
-    {
-      "date": "2025-07",
-      "value": 0.1288
-    },
-    {
-      "date": "2025-08",
-      "value": 0.1292
-    },
-    {
-      "date": "2025-09",
-      "value": 0.13
-    },
-    {
-      "date": "2025-10",
-      "value": 0.13
-    },
-    {
-      "date": "2025-11",
-      "value": 0.1312
-    },
-    {
-      "date": "2025-12",
-      "value": 0.1336
-    },
-    {
-      "date": "2026-01",
-      "value": 0.1324
-    },
-    {
-      "date": "2026-02",
-      "value": 0.132
-    },
-    {
-      "date": "2026-03",
-      "value": 0.1316
-    },
-    {
-      "date": "2026-04",
-      "value": 0.1304
-    },
-    {
-      "date": "2026-05",
-      "value": 0.1288
-    },
-    {
-      "date": "2026-06",
-      "value": 0.1284
-    },
-    {
-      "date": "2026-07",
-      "value": 0.1292
-    }
-  ],
-  "LAI": [
-    {
-      "date": "2023-01",
-      "value": 1.0449
-    },
-    {
-      "date": "2023-02",
-      "value": 0.9621
-    },
-    {
-      "date": "2023-03",
-      "value": 0.9393
-    },
-    {
-      "date": "2023-04",
-      "value": 1.1394
-    },
-    {
-      "date": "2023-05",
-      "value": 1.4679
-    },
-    {
-      "date": "2023-06",
-      "value": 1.6464
-    },
-    {
-      "date": "2023-07",
-      "value": 1.6542
-    },
-    {
-      "date": "2023-08",
-      "value": 1.7394
-    },
-    {
-      "date": "2023-09",
-      "value": 1.7157
-    },
-    {
-      "date": "2023-10",
-      "value": 1.4925
-    },
-    {
-      "date": "2023-11",
-      "value": 1.242
-    },
-    {
-      "date": "2023-12",
-      "value": 0.7983
-    },
-    {
-      "date": "2024-01",
-      "value": 0.9759
-    },
-    {
-      "date": "2024-02",
-      "value": 0.9792
-    },
-    {
-      "date": "2024-03",
-      "value": 0.9063
-    },
-    {
-      "date": "2024-04",
-      "value": 1.0911
-    },
-    {
-      "date": "2024-05",
-      "value": 1.6101
-    },
-    {
-      "date": "2024-06",
-      "value": 1.6458
-    },
-    {
-      "date": "2024-07",
-      "value": 1.5963
-    },
-    {
-      "date": "2024-08",
-      "value": 1.6965
-    },
-    {
-      "date": "2024-09",
-      "value": 1.7325
-    },
-    {
-      "date": "2024-10",
-      "value": 1.5318
-    },
-    {
-      "date": "2024-11",
-      "value": 1.1757
-    },
-    {
-      "date": "2024-12",
-      "value": 1.0965
-    },
-    {
-      "date": "2025-01",
-      "value": 0.9687
-    },
-    {
-      "date": "2025-02",
-      "value": 0.9162
-    },
-    {
-      "date": "2025-03",
-      "value": 0.9471
-    },
-    {
-      "date": "2025-04",
-      "value": 1.1592
-    },
-    {
-      "date": "2025-05",
-      "value": 1.4652
-    },
-    {
-      "date": "2025-06",
-      "value": 1.6185
-    },
-    {
-      "date": "2025-07",
-      "value": 1.6782
-    },
-    {
-      "date": "2025-08",
-      "value": 1.7181
-    },
-    {
-      "date": "2025-09",
-      "value": 1.7394
-    },
-    {
-      "date": "2025-10",
-      "value": 1.5462
-    },
-    {
-      "date": "2025-11",
-      "value": 1.1784
-    },
-    {
-      "date": "2025-12",
-      "value": 0.9966
-    },
-    {
-      "date": "2026-01",
-      "value": 1.062
-    },
-    {
-      "date": "2026-02",
-      "value": 0.9474
-    },
-    {
-      "date": "2026-03",
-      "value": 0.7638
-    },
-    {
-      "date": "2026-04",
-      "value": 1.2519
-    },
-    {
-      "date": "2026-05",
-      "value": 1.5789
-    },
-    {
-      "date": "2026-06",
-      "value": 1.728
-    },
-    {
-      "date": "2026-07",
-      "value": 1.6836
-    }
-  ],
-  "HSI": [
-    {
-      "date": "2023-01",
-      "value": 0.492
-    },
-    {
-      "date": "2023-02",
-      "value": 0.485
-    },
-    {
-      "date": "2023-03",
-      "value": 0.483
-    },
-    {
-      "date": "2023-04",
-      "value": 0.5
-    },
-    {
-      "date": "2023-05",
-      "value": 0.511
-    },
-    {
-      "date": "2023-06",
-      "value": 0.569
-    },
-    {
-      "date": "2023-07",
-      "value": 0.571
-    },
-    {
-      "date": "2023-08",
-      "value": 0.53
-    },
-    {
-      "date": "2023-09",
-      "value": 0.509
-    },
-    {
-      "date": "2023-10",
-      "value": 0.509
-    },
-    {
-      "date": "2023-11",
-      "value": 0.508
-    },
-    {
-      "date": "2023-12",
-      "value": 0.472
-    },
-    {
-      "date": "2024-01",
-      "value": 0.489
-    },
-    {
-      "date": "2024-02",
-      "value": 0.485
-    },
-    {
-      "date": "2024-03",
-      "value": 0.478
-    },
-    {
-      "date": "2024-04",
-      "value": 0.494
-    },
-    {
-      "date": "2024-05",
-      "value": 0.545
-    },
-    {
-      "date": "2024-06",
-      "value": 0.569
-    },
-    {
-      "date": "2024-07",
-      "value": 0.532
-    },
-    {
-      "date": "2024-08",
-      "value": 0.51
-    },
-    {
-      "date": "2024-09",
-      "value": 0.508
-    },
-    {
-      "date": "2024-10",
-      "value": 0.508
-    },
-    {
-      "date": "2024-11",
-      "value": 0.502
-    },
-    {
-      "date": "2024-12",
-      "value": 0.493
-    },
-    {
-      "date": "2025-01",
-      "value": 0.483
-    },
-    {
-      "date": "2025-02",
-      "value": 0.478
-    },
-    {
-      "date": "2025-03",
-      "value": 0.478
-    },
-    {
-      "date": "2025-04",
-      "value": 0.501
-    },
-    {
-      "date": "2025-05",
-      "value": 0.571
-    },
-    {
-      "date": "2025-06",
-      "value": 0.571
-    },
-    {
-      "date": "2025-07",
-      "value": 0.539
-    },
-    {
-      "date": "2025-08",
-      "value": 0.514
-    },
-    {
-      "date": "2025-09",
-      "value": 0.531
-    },
-    {
-      "date": "2025-10",
-      "value": 0.507
-    },
-    {
-      "date": "2025-11",
-      "value": 0.502
-    },
-    {
-      "date": "2025-12",
-      "value": 0.484
-    },
-    {
-      "date": "2026-01",
-      "value": 0.491
-    },
-    {
-      "date": "2026-02",
-      "value": 0.481
-    },
-    {
-      "date": "2026-03",
-      "value": 0.455
-    },
-    {
-      "date": "2026-04",
-      "value": 0.507
-    },
-    {
-      "date": "2026-05",
-      "value": 0.559
-    },
-    {
-      "date": "2026-06",
-      "value": 0.529
-    },
-    {
-      "date": "2026-07",
-      "value": 0.571
-    }
-  ],
-  "rocky_intertidal_frac": [
-    {
-      "date": "2023-01",
-      "value": 0.016
-    },
-    {
-      "date": "2023-02",
-      "value": 0.016
-    },
-    {
-      "date": "2023-03",
-      "value": 0.017
-    },
-    {
-      "date": "2023-04",
-      "value": 0.014
-    },
-    {
-      "date": "2023-05",
-      "value": 0.029
-    },
-    {
-      "date": "2023-06",
-      "value": 0.221
-    },
-    {
-      "date": "2023-07",
-      "value": 0.228
-    },
-    {
-      "date": "2023-08",
-      "value": 0.085
-    },
-    {
-      "date": "2023-09",
-      "value": 0.015
-    },
-    {
-      "date": "2023-10",
-      "value": 0.016
-    },
-    {
-      "date": "2023-11",
-      "value": 0.014
-    },
-    {
-      "date": "2023-12",
-      "value": 0.019
-    },
-    {
-      "date": "2024-01",
-      "value": 0.023
-    },
-    {
-      "date": "2024-02",
-      "value": 0.014
-    },
-    {
-      "date": "2024-03",
-      "value": 0.014
-    },
-    {
-      "date": "2024-04",
-      "value": 0.016
-    },
-    {
-      "date": "2024-05",
-      "value": 0.139
-    },
-    {
-      "date": "2024-06",
-      "value": 0.222
-    },
-    {
-      "date": "2024-07",
-      "value": 0.093
-    },
-    {
-      "date": "2024-08",
-      "value": 0.018
-    },
-    {
-      "date": "2024-09",
-      "value": 0.011
-    },
-    {
-      "date": "2024-10",
-      "value": 0.014
-    },
-    {
-      "date": "2024-11",
-      "value": 0.011
-    },
-    {
-      "date": "2024-12",
-      "value": 0.009
-    },
-    {
-      "date": "2025-01",
-      "value": 0.01
-    },
-    {
-      "date": "2025-02",
-      "value": 0.014
-    },
-    {
-      "date": "2025-03",
-      "value": 0.012
-    },
-    {
-      "date": "2025-04",
-      "value": 0.015
-    },
-    {
-      "date": "2025-05",
-      "value": 0.224
-    },
-    {
-      "date": "2025-06",
-      "value": 0.225
-    },
-    {
-      "date": "2025-07",
-      "value": 0.12
-    },
-    {
-      "date": "2025-08",
-      "value": 0.026
-    },
-    {
-      "date": "2025-09",
-      "value": 0.089
-    },
-    {
-      "date": "2025-10",
-      "value": 0.01
-    },
-    {
-      "date": "2025-11",
-      "value": 0.01
-    },
-    {
-      "date": "2025-12",
-      "value": 0.01
-    },
-    {
-      "date": "2026-01",
-      "value": 0.01
-    },
-    {
-      "date": "2026-02",
-      "value": 0.013
-    },
-    {
-      "date": "2026-03",
-      "value": 0.011
-    },
-    {
-      "date": "2026-04",
-      "value": 0.015
-    },
-    {
-      "date": "2026-05",
-      "value": 0.185
-    },
-    {
-      "date": "2026-06",
-      "value": 0.083
-    },
-    {
-      "date": "2026-07",
-      "value": 0.222
-    }
-  ],
-  "nearshore_water_frac": [
-    {
-      "date": "2023-01",
-      "value": 0.58
-    },
-    {
-      "date": "2023-02",
-      "value": 0.58
-    },
-    {
-      "date": "2023-03",
-      "value": 0.581
-    },
-    {
-      "date": "2023-04",
-      "value": 0.573
-    },
-    {
-      "date": "2023-05",
-      "value": 0.573
-    },
-    {
-      "date": "2023-06",
-      "value": 0.571
-    },
-    {
-      "date": "2023-07",
-      "value": 0.572
-    },
-    {
-      "date": "2023-08",
-      "value": 0.573
-    },
-    {
-      "date": "2023-09",
-      "value": 0.574
-    },
-    {
-      "date": "2023-10",
-      "value": 0.58
-    },
-    {
-      "date": "2023-11",
-      "value": 0.581
-    },
-    {
-      "date": "2023-12",
-      "value": 0.597
-    },
-    {
-      "date": "2024-01",
-      "value": 0.6
-    },
-    {
-      "date": "2024-02",
-      "value": 0.579
-    },
-    {
-      "date": "2024-03",
-      "value": 0.575
-    },
-    {
-      "date": "2024-04",
-      "value": 0.575
-    },
-    {
-      "date": "2024-05",
-      "value": 0.571
-    },
-    {
-      "date": "2024-06",
-      "value": 0.569
-    },
-    {
-      "date": "2024-07",
-      "value": 0.574
-    },
-    {
-      "date": "2024-08",
-      "value": 0.573
-    },
-    {
-      "date": "2024-09",
-      "value": 0.575
-    },
-    {
-      "date": "2024-10",
-      "value": 0.577
-    },
-    {
-      "date": "2024-11",
-      "value": 0.575
-    },
-    {
-      "date": "2024-12",
-      "value": 0.579
-    },
-    {
-      "date": "2025-01",
-      "value": 0.582
-    },
-    {
-      "date": "2025-02",
-      "value": 0.576
-    },
-    {
-      "date": "2025-03",
-      "value": 0.575
-    },
-    {
-      "date": "2025-04",
-      "value": 0.574
-    },
-    {
-      "date": "2025-05",
-      "value": 0.576
-    },
-    {
-      "date": "2025-06",
-      "value": 0.573
-    },
-    {
-      "date": "2025-07",
-      "value": 0.572
-    },
-    {
-      "date": "2025-08",
-      "value": 0.573
-    },
-    {
-      "date": "2025-09",
-      "value": 0.575
-    },
-    {
-      "date": "2025-10",
-      "value": 0.575
-    },
-    {
-      "date": "2025-11",
-      "value": 0.578
-    },
-    {
-      "date": "2025-12",
-      "value": 0.584
-    },
-    {
-      "date": "2026-01",
-      "value": 0.581
-    },
-    {
-      "date": "2026-02",
-      "value": 0.58
-    },
-    {
-      "date": "2026-03",
-      "value": 0.579
-    },
-    {
-      "date": "2026-04",
-      "value": 0.576
-    },
-    {
-      "date": "2026-05",
-      "value": 0.572
-    },
-    {
-      "date": "2026-06",
-      "value": 0.571
-    },
-    {
-      "date": "2026-07",
-      "value": 0.573
+  },
+  "observations": [
+    {
+      "month": "2023-01",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 137564,
+      "ndvi_mean": 0.3483,
+      "ndvi_percent": 34.8,
+      "land_only_ndvi": 0.3483,
+      "vegetation_cover_percent": 73.4,
+      "veg_cover_land_percent": 73.4,
+      "rocky_intertidal_frac_percent": 1.6,
+      "nearshore_water_frac_percent": 58.0,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.0,
+      "hsi_score": 49.2,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-02",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 7,
+      "valid_pixel_count": 138863,
+      "ndvi_mean": 0.3207,
+      "ndvi_percent": 32.1,
+      "land_only_ndvi": 0.3207,
+      "vegetation_cover_percent": 73.6,
+      "veg_cover_land_percent": 73.6,
+      "rocky_intertidal_frac_percent": 1.6,
+      "nearshore_water_frac_percent": 58.0,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.0,
+      "hsi_score": 48.5,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-03",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 135766,
+      "ndvi_mean": 0.3131,
+      "ndvi_percent": 31.3,
+      "land_only_ndvi": 0.3131,
+      "vegetation_cover_percent": 73.2,
+      "veg_cover_land_percent": 73.2,
+      "rocky_intertidal_frac_percent": 1.7,
+      "nearshore_water_frac_percent": 58.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.1,
+      "hsi_score": 48.3,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-04",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 6,
+      "valid_pixel_count": 134521,
+      "ndvi_mean": 0.3798,
+      "ndvi_percent": 38.0,
+      "land_only_ndvi": 0.3798,
+      "vegetation_cover_percent": 75.1,
+      "veg_cover_land_percent": 75.1,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 50.0,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-05",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 8,
+      "valid_pixel_count": 137400,
+      "ndvi_mean": 0.4893,
+      "ndvi_percent": 48.9,
+      "land_only_ndvi": 0.4893,
+      "vegetation_cover_percent": 76.0,
+      "veg_cover_land_percent": 76.0,
+      "rocky_intertidal_frac_percent": 2.9,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 51.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-06",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 138087,
+      "ndvi_mean": 0.5488,
+      "ndvi_percent": 54.9,
+      "land_only_ndvi": 0.5488,
+      "vegetation_cover_percent": 76.4,
+      "veg_cover_land_percent": 76.4,
+      "rocky_intertidal_frac_percent": 22.1,
+      "nearshore_water_frac_percent": 57.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.1,
+      "hsi_score": 56.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-07",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 8,
+      "valid_pixel_count": 137444,
+      "ndvi_mean": 0.5514,
+      "ndvi_percent": 55.1,
+      "land_only_ndvi": 0.5514,
+      "vegetation_cover_percent": 76.3,
+      "veg_cover_land_percent": 76.3,
+      "rocky_intertidal_frac_percent": 22.8,
+      "nearshore_water_frac_percent": 57.2,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.2,
+      "hsi_score": 57.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-08",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 138012,
+      "ndvi_mean": 0.5798,
+      "ndvi_percent": 58.0,
+      "land_only_ndvi": 0.5798,
+      "vegetation_cover_percent": 77.1,
+      "veg_cover_land_percent": 77.1,
+      "rocky_intertidal_frac_percent": 8.5,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 53.0,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-09",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 137350,
+      "ndvi_mean": 0.5719,
+      "ndvi_percent": 57.2,
+      "land_only_ndvi": 0.5719,
+      "vegetation_cover_percent": 76.8,
+      "veg_cover_land_percent": 76.8,
+      "rocky_intertidal_frac_percent": 1.5,
+      "nearshore_water_frac_percent": 57.4,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.4,
+      "hsi_score": 50.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-10",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 138192,
+      "ndvi_mean": 0.4975,
+      "ndvi_percent": 49.7,
+      "land_only_ndvi": 0.4975,
+      "vegetation_cover_percent": 75.7,
+      "veg_cover_land_percent": 75.7,
+      "rocky_intertidal_frac_percent": 1.6,
+      "nearshore_water_frac_percent": 58.0,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.0,
+      "hsi_score": 50.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-11",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 137966,
+      "ndvi_mean": 0.414,
+      "ndvi_percent": 41.4,
+      "land_only_ndvi": 0.414,
+      "vegetation_cover_percent": 75.2,
+      "veg_cover_land_percent": 75.2,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 58.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.1,
+      "hsi_score": 50.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2023-12",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 118087,
+      "ndvi_mean": 0.2661,
+      "ndvi_percent": 26.6,
+      "land_only_ndvi": 0.2661,
+      "vegetation_cover_percent": 70.3,
+      "veg_cover_land_percent": 70.3,
+      "rocky_intertidal_frac_percent": 1.9,
+      "nearshore_water_frac_percent": 59.7,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 59.7,
+      "hsi_score": 47.2,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-01",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 124847,
+      "ndvi_mean": 0.3253,
+      "ndvi_percent": 32.5,
+      "land_only_ndvi": 0.3253,
+      "vegetation_cover_percent": 70.5,
+      "veg_cover_land_percent": 70.5,
+      "rocky_intertidal_frac_percent": 2.3,
+      "nearshore_water_frac_percent": 60.0,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 60.0,
+      "hsi_score": 48.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-02",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 7,
+      "valid_pixel_count": 135231,
+      "ndvi_mean": 0.3264,
+      "ndvi_percent": 32.6,
+      "land_only_ndvi": 0.3264,
+      "vegetation_cover_percent": 73.3,
+      "veg_cover_land_percent": 73.3,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 57.9,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.9,
+      "hsi_score": 48.5,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-03",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 132487,
+      "ndvi_mean": 0.3021,
+      "ndvi_percent": 30.2,
+      "land_only_ndvi": 0.3021,
+      "vegetation_cover_percent": 73.4,
+      "veg_cover_land_percent": 73.4,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 47.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-04",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 127301,
+      "ndvi_mean": 0.3637,
+      "ndvi_percent": 36.4,
+      "land_only_ndvi": 0.3637,
+      "vegetation_cover_percent": 73.6,
+      "veg_cover_land_percent": 73.6,
+      "rocky_intertidal_frac_percent": 1.6,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 49.4,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-05",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 8,
+      "valid_pixel_count": 138194,
+      "ndvi_mean": 0.5367,
+      "ndvi_percent": 53.7,
+      "land_only_ndvi": 0.5367,
+      "vegetation_cover_percent": 76.6,
+      "veg_cover_land_percent": 76.6,
+      "rocky_intertidal_frac_percent": 13.9,
+      "nearshore_water_frac_percent": 57.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.1,
+      "hsi_score": 54.5,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-06",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 138490,
+      "ndvi_mean": 0.5486,
+      "ndvi_percent": 54.9,
+      "land_only_ndvi": 0.5486,
+      "vegetation_cover_percent": 76.5,
+      "veg_cover_land_percent": 76.5,
+      "rocky_intertidal_frac_percent": 22.2,
+      "nearshore_water_frac_percent": 56.9,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 56.9,
+      "hsi_score": 56.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-07",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 8,
+      "valid_pixel_count": 137385,
+      "ndvi_mean": 0.5321,
+      "ndvi_percent": 53.2,
+      "land_only_ndvi": 0.5321,
+      "vegetation_cover_percent": 76.9,
+      "veg_cover_land_percent": 76.9,
+      "rocky_intertidal_frac_percent": 9.3,
+      "nearshore_water_frac_percent": 57.4,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.4,
+      "hsi_score": 53.2,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-08",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 7,
+      "valid_pixel_count": 138069,
+      "ndvi_mean": 0.5655,
+      "ndvi_percent": 56.5,
+      "land_only_ndvi": 0.5655,
+      "vegetation_cover_percent": 77.2,
+      "veg_cover_land_percent": 77.2,
+      "rocky_intertidal_frac_percent": 1.8,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 51.0,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-09",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 138026,
+      "ndvi_mean": 0.5775,
+      "ndvi_percent": 57.8,
+      "land_only_ndvi": 0.5775,
+      "vegetation_cover_percent": 77.0,
+      "veg_cover_land_percent": 77.0,
+      "rocky_intertidal_frac_percent": 1.1,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 50.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-10",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 136703,
+      "ndvi_mean": 0.5106,
+      "ndvi_percent": 51.1,
+      "land_only_ndvi": 0.5106,
+      "vegetation_cover_percent": 75.9,
+      "veg_cover_land_percent": 75.9,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 57.7,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.7,
+      "hsi_score": 50.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-11",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 133048,
+      "ndvi_mean": 0.3919,
+      "ndvi_percent": 39.2,
+      "land_only_ndvi": 0.3919,
+      "vegetation_cover_percent": 74.7,
+      "veg_cover_land_percent": 74.7,
+      "rocky_intertidal_frac_percent": 1.1,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 50.2,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2024-12",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 126376,
+      "ndvi_mean": 0.3655,
+      "ndvi_percent": 36.5,
+      "land_only_ndvi": 0.3655,
+      "vegetation_cover_percent": 73.0,
+      "veg_cover_land_percent": 73.0,
+      "rocky_intertidal_frac_percent": 0.9,
+      "nearshore_water_frac_percent": 57.9,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.9,
+      "hsi_score": 49.3,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-01",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 126241,
+      "ndvi_mean": 0.3229,
+      "ndvi_percent": 32.3,
+      "land_only_ndvi": 0.3229,
+      "vegetation_cover_percent": 72.7,
+      "veg_cover_land_percent": 72.7,
+      "rocky_intertidal_frac_percent": 1.0,
+      "nearshore_water_frac_percent": 58.2,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.2,
+      "hsi_score": 48.3,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-02",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 132302,
+      "ndvi_mean": 0.3054,
+      "ndvi_percent": 30.5,
+      "land_only_ndvi": 0.3054,
+      "vegetation_cover_percent": 72.7,
+      "veg_cover_land_percent": 72.7,
+      "rocky_intertidal_frac_percent": 1.4,
+      "nearshore_water_frac_percent": 57.6,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.6,
+      "hsi_score": 47.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-03",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 11,
+      "valid_pixel_count": 124532,
+      "ndvi_mean": 0.3157,
+      "ndvi_percent": 31.6,
+      "land_only_ndvi": 0.3157,
+      "vegetation_cover_percent": 71.9,
+      "veg_cover_land_percent": 71.9,
+      "rocky_intertidal_frac_percent": 1.2,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 47.8,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-04",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 13,
+      "valid_pixel_count": 133133,
+      "ndvi_mean": 0.3864,
+      "ndvi_percent": 38.6,
+      "land_only_ndvi": 0.3864,
+      "vegetation_cover_percent": 74.3,
+      "veg_cover_land_percent": 74.3,
+      "rocky_intertidal_frac_percent": 1.5,
+      "nearshore_water_frac_percent": 57.4,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.4,
+      "hsi_score": 50.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-05",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 137808,
+      "ndvi_mean": 0.4884,
+      "ndvi_percent": 48.8,
+      "land_only_ndvi": 0.4884,
+      "vegetation_cover_percent": 76.0,
+      "veg_cover_land_percent": 76.0,
+      "rocky_intertidal_frac_percent": 22.4,
+      "nearshore_water_frac_percent": 57.6,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.6,
+      "hsi_score": 57.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-06",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 138282,
+      "ndvi_mean": 0.5395,
+      "ndvi_percent": 53.9,
+      "land_only_ndvi": 0.5395,
+      "vegetation_cover_percent": 76.4,
+      "veg_cover_land_percent": 76.4,
+      "rocky_intertidal_frac_percent": 22.5,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 57.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-07",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 137547,
+      "ndvi_mean": 0.5594,
+      "ndvi_percent": 55.9,
+      "land_only_ndvi": 0.5594,
+      "vegetation_cover_percent": 76.6,
+      "veg_cover_land_percent": 76.6,
+      "rocky_intertidal_frac_percent": 12.0,
+      "nearshore_water_frac_percent": 57.2,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.2,
+      "hsi_score": 53.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-08",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 6,
+      "valid_pixel_count": 136243,
+      "ndvi_mean": 0.5727,
+      "ndvi_percent": 57.3,
+      "land_only_ndvi": 0.5727,
+      "vegetation_cover_percent": 77.5,
+      "veg_cover_land_percent": 77.5,
+      "rocky_intertidal_frac_percent": 2.6,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 51.4,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-09",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 133960,
+      "ndvi_mean": 0.5798,
+      "ndvi_percent": 58.0,
+      "land_only_ndvi": 0.5798,
+      "vegetation_cover_percent": 76.4,
+      "veg_cover_land_percent": 76.4,
+      "rocky_intertidal_frac_percent": 8.9,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 53.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-10",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 138129,
+      "ndvi_mean": 0.5154,
+      "ndvi_percent": 51.5,
+      "land_only_ndvi": 0.5154,
+      "vegetation_cover_percent": 76.4,
+      "veg_cover_land_percent": 76.4,
+      "rocky_intertidal_frac_percent": 1.0,
+      "nearshore_water_frac_percent": 57.5,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.5,
+      "hsi_score": 50.7,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-11",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 128650,
+      "ndvi_mean": 0.3928,
+      "ndvi_percent": 39.3,
+      "land_only_ndvi": 0.3928,
+      "vegetation_cover_percent": 74.2,
+      "veg_cover_land_percent": 74.2,
+      "rocky_intertidal_frac_percent": 1.0,
+      "nearshore_water_frac_percent": 57.8,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.8,
+      "hsi_score": 50.2,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2025-12",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 118982,
+      "ndvi_mean": 0.3322,
+      "ndvi_percent": 33.2,
+      "land_only_ndvi": 0.3322,
+      "vegetation_cover_percent": 71.7,
+      "veg_cover_land_percent": 71.7,
+      "rocky_intertidal_frac_percent": 1.0,
+      "nearshore_water_frac_percent": 58.4,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.4,
+      "hsi_score": 48.4,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-01",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 12,
+      "valid_pixel_count": 127361,
+      "ndvi_mean": 0.354,
+      "ndvi_percent": 35.4,
+      "land_only_ndvi": 0.354,
+      "vegetation_cover_percent": 73.1,
+      "veg_cover_land_percent": 73.1,
+      "rocky_intertidal_frac_percent": 1.0,
+      "nearshore_water_frac_percent": 58.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.1,
+      "hsi_score": 49.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-02",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 6,
+      "valid_pixel_count": 129202,
+      "ndvi_mean": 0.3158,
+      "ndvi_percent": 31.6,
+      "land_only_ndvi": 0.3158,
+      "vegetation_cover_percent": 72.7,
+      "veg_cover_land_percent": 72.7,
+      "rocky_intertidal_frac_percent": 1.3,
+      "nearshore_water_frac_percent": 58.0,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 58.0,
+      "hsi_score": 48.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-03",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 105565,
+      "ndvi_mean": 0.2546,
+      "ndvi_percent": 25.5,
+      "land_only_ndvi": 0.2546,
+      "vegetation_cover_percent": 67.8,
+      "veg_cover_land_percent": 67.8,
+      "rocky_intertidal_frac_percent": 1.1,
+      "nearshore_water_frac_percent": 57.9,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.9,
+      "hsi_score": 45.5,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-04",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 13,
+      "valid_pixel_count": 134442,
+      "ndvi_mean": 0.4173,
+      "ndvi_percent": 41.7,
+      "land_only_ndvi": 0.4173,
+      "vegetation_cover_percent": 75.5,
+      "veg_cover_land_percent": 75.5,
+      "rocky_intertidal_frac_percent": 1.5,
+      "nearshore_water_frac_percent": 57.6,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.6,
+      "hsi_score": 50.7,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-05",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 10,
+      "valid_pixel_count": 138192,
+      "ndvi_mean": 0.5263,
+      "ndvi_percent": 52.6,
+      "land_only_ndvi": 0.5263,
+      "vegetation_cover_percent": 76.6,
+      "veg_cover_land_percent": 76.6,
+      "rocky_intertidal_frac_percent": 18.5,
+      "nearshore_water_frac_percent": 57.2,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.2,
+      "hsi_score": 55.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-06",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 7,
+      "valid_pixel_count": 138093,
+      "ndvi_mean": 0.576,
+      "ndvi_percent": 57.6,
+      "land_only_ndvi": 0.576,
+      "vegetation_cover_percent": 77.0,
+      "veg_cover_land_percent": 77.0,
+      "rocky_intertidal_frac_percent": 8.3,
+      "nearshore_water_frac_percent": 57.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.1,
+      "hsi_score": 52.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-07",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-18T00:56:50.437626Z",
+      "image_count": 9,
+      "valid_pixel_count": 136579,
+      "ndvi_mean": 0.5612,
+      "ndvi_percent": 56.1,
+      "land_only_ndvi": 0.5612,
+      "vegetation_cover_percent": 76.8,
+      "veg_cover_land_percent": 76.8,
+      "rocky_intertidal_frac_percent": 22.2,
+      "nearshore_water_frac_percent": 57.3,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.3,
+      "hsi_score": 57.1,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
+    },
+    {
+      "month": "2026-08",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-20T05:53:49.865412Z",
+      "image_count": 8,
+      "valid_pixel_count": 137619,
+      "ndvi_mean": 0.5694,
+      "ndvi_percent": 56.9,
+      "land_only_ndvi": 0.5694,
+      "vegetation_cover_percent": 76.8,
+      "veg_cover_land_percent": 76.8,
+      "rocky_intertidal_frac_percent": 18.4,
+      "nearshore_water_frac_percent": 57.1,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.1,
+      "hsi_score": 55.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
     }
   ],
   "provenance": {
@@ -1262,14 +1790,18 @@
       "point_buffer_gt_500m_as_primary_aoi",
       "reuse_S03_aoi_for_S22"
     ],
-    "generated_at": "2026-09-18T00:56:50.437626Z",
+    "generated_at": "2026-09-20T05:53:49.865412Z",
     "note": "S21 partial（仅矾坨子）直至四分量官方点齐；S22 工作 AOI 待保护区官方界替换。均为站址 AOI 重跑，非邻站克隆。"
   },
-  "anchor": "蛇岛—老铁山国家级自然保护区",
-  "coordinates": {
-    "lat": 38.7532596431239,
-    "lng": 121.21188042015547
-  },
-  "habitat_profile": "island_reef",
-  "formula_version": "island-reef-hsi-v1"
+  "runReport": {
+    "requested_months": [
+      "2026-08"
+    ],
+    "ok_months": [
+      "2026-08"
+    ],
+    "merged_total_months": 44,
+    "failures": [],
+    "replace": false
+  }
 }

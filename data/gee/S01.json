@@ -1,44 +1,87 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1789693771681,
-  "generatedAt": "2026-09-18T01:09:31.681795Z",
+  "timestamp": 1789882063982,
+  "generatedAt": "2026-09-20T05:27:43.982762Z",
   "stationId": "S01",
   "stationName": "崇明东滩",
   "eaafId": "EAAF002",
   "dataSource": "gee-sentinel2-monthly-wdpa1606",
-  "selectedMonth": "2026-07",
+  "selectedMonth": "2026-08",
+  "opticsCadence": {
+    "series": "monthly_previous_complete",
+    "series_end": "2026-08",
+    "ring": "rolling_composite",
+    "ring_as_of": "2026-09-19"
+  },
+  "recentSnapshot": {
+    "month": "2026-09",
+    "source": "gee-sentinel2-monthly-wdpa1606",
+    "quality": "observed-rolling-composite",
+    "generated_at": "2026-09-20T05:27:43.982762Z",
+    "image_count": 19,
+    "valid_pixel_count": 214258,
+    "ndvi_mean": -0.0014,
+    "ndvi_percent": 0.0,
+    "vegetation_cover_percent": 12.0,
+    "mudflat_exposure_percent": 4.9,
+    "water_cover_percent": 83.1,
+    "hsi_score": 17.2,
+    "hsi_level": "poor",
+    "hsi_label": "较差 · 生境承载力偏低",
+    "formula_version": "wetland-hsi-v1",
+    "metric_notes": {
+      "ndvi": "actual monthly mean NDVI on WDPA AOI",
+      "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+      "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+      "hsi": "deterministic generic wetland indicator",
+      "aoi": "wdpa_1606_multipart_polygons"
+    },
+    "as_of": "2026-09-19",
+    "window_days": 16,
+    "aoi_policy": "wdpa_1606_multipart_polygons",
+    "reduce_scale_m": 20
+  },
   "uiPayload": {
     "ndvi_percent": 0.0,
     "ndvi_label": "植被丰度偏低",
-    "ndvi_delta": 0.0,
-    "ndvi_delta_text": "较上月 持平",
-    "hsi_score": 18.7,
+    "ndvi_delta": 0.4,
+    "ndvi_delta_text": "较上月 +0.4%",
+    "ndvi_as_of": "2026-09-19",
+    "ndvi_cadence": "rolling_composite",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-19",
+    "hsi_score": 17.2,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
-    "hsi_trend": "up",
-    "mudflat_exposure_percent": 16.2,
+    "hsi_trend": "flat",
+    "hsi_as_of": "2026-09-19",
+    "hsi_cadence": "rolling_composite",
+    "hsi_cadence_label": "近16日合成 · 2026-09-19",
+    "mudflat_exposure_percent": 4.9,
     "vegetation_cover_percent": 12.0,
-    "water_cover_percent": 71.8,
+    "water_cover_percent": 83.1,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-09-18T01:09:31.681795Z"
+    "updated_at": "2026-09-20T05:27:43.982762Z",
+    "series_end_month": "2026-08"
   },
   "coreData": {
     "available": true,
     "station_id": "S01",
-    "selected_month": "2026-07",
-    "ndvi": -0.1035,
-    "ndvi_percent": 0.0,
+    "selected_month": "2026-08",
+    "ndvi": 0.004,
+    "ndvi_percent": 0.4,
     "ndvi_status": "植被丰度偏低",
-    "hsi_score": 18.7,
+    "hsi_score": 18.4,
     "hsi_level": "poor",
-    "hsi_trend": "up",
-    "mudflat_exposure_percent": 16.2,
-    "vegetation_cover_percent": 12.0,
-    "water_cover_percent": 71.8,
+    "hsi_trend": "flat",
+    "mudflat_exposure_percent": 13.4,
+    "vegetation_cover_percent": 11.9,
+    "water_cover_percent": 74.6,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
-    "updated_at": "2026-09-18T01:09:31.681795Z"
+    "updated_at": "2026-09-20T05:27:43.982762Z",
+    "ring_as_of": "2026-09-19",
+    "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
     "gee": {
@@ -86,7 +129,8 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "values": [
         -0.0245,
@@ -131,12 +175,14 @@
         -0.0289,
         -0.0792,
         -0.1495,
-        -0.1035
+        -0.1035,
+        0.004
       ],
-      "calendarMonthCount": 43,
-      "observedMonthCount": 43,
+      "calendarMonthCount": 44,
+      "observedMonthCount": 44,
       "missingMonths": [],
-      "dataSource": "gee-sentinel2-monthly-wdpa1606"
+      "dataSource": "gee-sentinel2-monthly-wdpa1606",
+      "seriesEndMonth": "2026-08"
     },
     "habitat": {
       "categories": [
@@ -182,7 +228,8 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "vegetation_cover_percent": [
         9.4,
@@ -227,7 +274,8 @@
         10.4,
         11.3,
         12.0,
-        12.0
+        12.0,
+        11.9
       ],
       "mudflat_exposure_percent": [
         4.4,
@@ -272,7 +320,8 @@
         6.8,
         13.5,
         6.9,
-        16.2
+        16.2,
+        13.4
       ],
       "water_cover_percent": [
         85.2,
@@ -317,7 +366,8 @@
         82.6,
         74.9,
         81.2,
-        71.8
+        71.8,
+        74.6
       ],
       "hsi_score": [
         16.8,
@@ -362,8 +412,10 @@
         17.3,
         18.2,
         17.4,
-        18.7
-      ]
+        18.7,
+        18.4
+      ],
+      "seriesEndMonth": "2026-08"
     }
   },
   "observations": [
@@ -1484,6 +1536,32 @@
       },
       "aoi_policy": "wdpa_1606_multipart_polygons",
       "reduce_scale_m": 20
+    },
+    {
+      "month": "2026-08",
+      "source": "gee-sentinel2-monthly-wdpa1606",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-09-20T05:27:43.982762Z",
+      "image_count": 27,
+      "valid_pixel_count": 221342,
+      "ndvi_mean": 0.004,
+      "ndvi_percent": 0.4,
+      "vegetation_cover_percent": 11.9,
+      "mudflat_exposure_percent": 13.4,
+      "water_cover_percent": 74.6,
+      "hsi_score": 18.4,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI on WDPA AOI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator",
+        "aoi": "wdpa_1606_multipart_polygons"
+      },
+      "aoi_policy": "wdpa_1606_multipart_polygons",
+      "reduce_scale_m": 20
     }
   ],
   "provenance": {
@@ -1511,357 +1589,8 @@
     "boundary_source": "WCMC/WDPA/current/polygons",
     "unesco_ref": "1606bis",
     "whh_portal": "https://whh.euspa.europa.eu/",
+    "series_policy": "rolling monthly through previous complete calendar month",
+    "ring_policy": "prefer rolling 16-day composite ending yesterday; fallback monthly end",
     "citation_zh": "边界：UNEP-WCMC WDPA；光学：Copernicus Sentinel-2；专题入口：EUSPA Copernicus World Heritage Hub。"
-  },
-  "station_id": "S01",
-  "station_name": "崇明东滩",
-  "updated_at": "2026-09-18T01:09:31.681795Z",
-  "NDVI": [
-    {
-      "date": "2023-01",
-      "value": -0.0245
-    },
-    {
-      "date": "2023-02",
-      "value": -0.0436
-    },
-    {
-      "date": "2023-03",
-      "value": 0.0118
-    },
-    {
-      "date": "2023-04",
-      "value": 0.0416
-    },
-    {
-      "date": "2023-05",
-      "value": -0.0623
-    },
-    {
-      "date": "2023-06",
-      "value": -0.1747
-    },
-    {
-      "date": "2023-07",
-      "value": 0.1198
-    },
-    {
-      "date": "2023-08",
-      "value": -0.0756
-    },
-    {
-      "date": "2023-09",
-      "value": -0.0411
-    },
-    {
-      "date": "2023-10",
-      "value": -0.0526
-    },
-    {
-      "date": "2023-11",
-      "value": 0.0188
-    },
-    {
-      "date": "2023-12",
-      "value": 0.013
-    },
-    {
-      "date": "2024-01",
-      "value": 0.0023
-    },
-    {
-      "date": "2024-02",
-      "value": 0.0195
-    },
-    {
-      "date": "2024-03",
-      "value": -0.0035
-    },
-    {
-      "date": "2024-04",
-      "value": -0.1076
-    },
-    {
-      "date": "2024-05",
-      "value": 0.0487
-    },
-    {
-      "date": "2024-06",
-      "value": -0.1408
-    },
-    {
-      "date": "2024-07",
-      "value": -0.1326
-    },
-    {
-      "date": "2024-08",
-      "value": -0.1199
-    },
-    {
-      "date": "2024-09",
-      "value": -0.1098
-    },
-    {
-      "date": "2024-10",
-      "value": -0.0689
-    },
-    {
-      "date": "2024-11",
-      "value": -0.1481
-    },
-    {
-      "date": "2024-12",
-      "value": -0.0376
-    },
-    {
-      "date": "2025-01",
-      "value": -0.0076
-    },
-    {
-      "date": "2025-02",
-      "value": 0.0322
-    },
-    {
-      "date": "2025-03",
-      "value": -0.0136
-    },
-    {
-      "date": "2025-04",
-      "value": -0.0232
-    },
-    {
-      "date": "2025-05",
-      "value": 0.0295
-    },
-    {
-      "date": "2025-06",
-      "value": 0.0156
-    },
-    {
-      "date": "2025-07",
-      "value": -0.0753
-    },
-    {
-      "date": "2025-08",
-      "value": 0.031
-    },
-    {
-      "date": "2025-09",
-      "value": -0.1639
-    },
-    {
-      "date": "2025-10",
-      "value": -0.0355
-    },
-    {
-      "date": "2025-11",
-      "value": -0.0282
-    },
-    {
-      "date": "2025-12",
-      "value": -0.1129
-    },
-    {
-      "date": "2026-01",
-      "value": 0.043
-    },
-    {
-      "date": "2026-02",
-      "value": 0.0232
-    },
-    {
-      "date": "2026-03",
-      "value": -0.0515
-    },
-    {
-      "date": "2026-04",
-      "value": -0.0289
-    },
-    {
-      "date": "2026-05",
-      "value": -0.0792
-    },
-    {
-      "date": "2026-06",
-      "value": -0.1495
-    },
-    {
-      "date": "2026-07",
-      "value": -0.1035
-    }
-  ],
-  "HSI": [
-    {
-      "date": "2023-01",
-      "value": 0.168
-    },
-    {
-      "date": "2023-02",
-      "value": 0.188
-    },
-    {
-      "date": "2023-03",
-      "value": 0.169
-    },
-    {
-      "date": "2023-04",
-      "value": 0.197
-    },
-    {
-      "date": "2023-05",
-      "value": 0.189
-    },
-    {
-      "date": "2023-06",
-      "value": 0.174
-    },
-    {
-      "date": "2023-07",
-      "value": 0.265
-    },
-    {
-      "date": "2023-08",
-      "value": 0.171
-    },
-    {
-      "date": "2023-09",
-      "value": 0.169
-    },
-    {
-      "date": "2023-10",
-      "value": 0.167
-    },
-    {
-      "date": "2023-11",
-      "value": 0.175
-    },
-    {
-      "date": "2023-12",
-      "value": 0.174
-    },
-    {
-      "date": "2024-01",
-      "value": 0.169
-    },
-    {
-      "date": "2024-02",
-      "value": 0.176
-    },
-    {
-      "date": "2024-03",
-      "value": 0.168
-    },
-    {
-      "date": "2024-04",
-      "value": 0.166
-    },
-    {
-      "date": "2024-05",
-      "value": 0.201
-    },
-    {
-      "date": "2024-06",
-      "value": 0.171
-    },
-    {
-      "date": "2024-07",
-      "value": 0.181
-    },
-    {
-      "date": "2024-08",
-      "value": 0.173
-    },
-    {
-      "date": "2024-09",
-      "value": 0.169
-    },
-    {
-      "date": "2024-10",
-      "value": 0.172
-    },
-    {
-      "date": "2024-11",
-      "value": 0.168
-    },
-    {
-      "date": "2024-12",
-      "value": 0.167
-    },
-    {
-      "date": "2025-01",
-      "value": 0.17
-    },
-    {
-      "date": "2025-02",
-      "value": 0.185
-    },
-    {
-      "date": "2025-03",
-      "value": 0.181
-    },
-    {
-      "date": "2025-04",
-      "value": 0.173
-    },
-    {
-      "date": "2025-05",
-      "value": 0.192
-    },
-    {
-      "date": "2025-06",
-      "value": 0.193
-    },
-    {
-      "date": "2025-07",
-      "value": 0.184
-    },
-    {
-      "date": "2025-08",
-      "value": 0.197
-    },
-    {
-      "date": "2025-09",
-      "value": 0.176
-    },
-    {
-      "date": "2025-10",
-      "value": 0.167
-    },
-    {
-      "date": "2025-11",
-      "value": 0.171
-    },
-    {
-      "date": "2025-12",
-      "value": 0.168
-    },
-    {
-      "date": "2026-01",
-      "value": 0.195
-    },
-    {
-      "date": "2026-02",
-      "value": 0.177
-    },
-    {
-      "date": "2026-03",
-      "value": 0.171
-    },
-    {
-      "date": "2026-04",
-      "value": 0.173
-    },
-    {
-      "date": "2026-05",
-      "value": 0.182
-    },
-    {
-      "date": "2026-06",
-      "value": 0.174
-    },
-    {
-      "date": "2026-07",
-      "value": 0.187
-    }
-  ]
+  }
 }
