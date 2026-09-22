@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790006113576,
-  "generatedAt": "2026-09-21T15:55:13.576350Z",
+  "timestamp": 1790052035577,
+  "generatedAt": "2026-09-22T04:40:35.577212Z",
   "stationId": "S22",
   "stationName": "蛇岛—老铁山",
   "eaafId": null,
@@ -13,13 +13,13 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-08",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-20"
+    "ring_as_of": "2026-09-21"
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-island-reef-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-09-21T15:55:13.576350Z",
+    "generated_at": "2026-09-22T04:40:35.577212Z",
     "image_count": 7,
     "valid_pixel_count": 127083,
     "ndvi_mean": 0.6204,
@@ -43,7 +43,7 @@
       "mudflat_exposure": "N/A for island_reef; intentionally null",
       "hsi": "island_reef_hsi_v1 (no mudflat weight)"
     },
-    "as_of": "2026-09-20",
+    "as_of": "2026-09-21",
     "window_days": 16
   },
   "uiPayload": {
@@ -52,16 +52,16 @@
     "ndvi_label": "陆域植被适中",
     "ndvi_delta": 0.8,
     "ndvi_delta_text": "较上月 +0.8%",
-    "ndvi_as_of": "2026-09-20",
+    "ndvi_as_of": "2026-09-21",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-09-20",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-21",
     "hsi_score": 49.4,
     "hsi_level": "good",
     "hsi_label": "良好 · 持续监测",
     "hsi_trend": "down",
-    "hsi_as_of": "2026-09-20",
+    "hsi_as_of": "2026-09-21",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-09-20",
+    "hsi_cadence_label": "近16日合成 · 2026-09-21",
     "mudflat_exposure_percent": null,
     "rocky_intertidal_frac_percent": 2.8,
     "vegetation_cover_percent": 81.5,
@@ -69,7 +69,7 @@
     "nearshore_water_frac_percent": 49.4,
     "data_source": "gee-sentinel2-island-reef-monthly",
     "data_source_label": "GEE · 岛礁 AOI · 近16日真值",
-    "updated_at": "2026-09-21T15:55:13.576350Z",
+    "updated_at": "2026-09-22T04:40:35.577212Z",
     "series_end_month": "2026-08",
     "series_start_month": "2023-03",
     "series_window_months": 42
@@ -91,7 +91,7 @@
     "data_source": "gee-sentinel2-island-reef-monthly",
     "formula_version": "island-reef-hsi-v1",
     "updated_at": "2026-09-20T05:53:49.865412Z",
-    "ring_as_of": "2026-09-20",
+    "ring_as_of": "2026-09-21",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
@@ -1773,7 +1773,7 @@
       "reuse_S03_aoi_for_S22",
       "month_series_end_as_ring_truth_when_recent_available"
     ],
-    "generated_at": "2026-09-21T15:55:13.576350Z",
+    "generated_at": "2026-09-22T04:40:35.577212Z",
     "note": "S21 partial（仅矾坨子）直至四分量官方点齐；S22 工作 AOI 待保护区官方界替换。均为站址 AOI 重跑，非邻站克隆。"
   },
   "runReport": {
@@ -1783,7 +1783,7 @@
     "failures": [],
     "replace": false,
     "ring_only": true,
-    "ring_as_of": "2026-09-20",
+    "ring_as_of": "2026-09-21",
     "ring_ndvi": 0.6204,
     "ring_hsi": 49.4
   }
