@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790006731937,
-  "generatedAt": "2026-09-21T16:05:31.937991Z",
+  "timestamp": 1790052092684,
+  "generatedAt": "2026-09-22T04:41:32.684836Z",
   "stationId": "S19",
   "stationName": "南矶山湿地",
   "eaafId": "EAAF087",
@@ -12,14 +12,14 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-08",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-20"
+    "ring_as_of": "2026-09-21"
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-09-21T16:05:31.937991Z",
-    "image_count": 7,
+    "generated_at": "2026-09-22T04:41:32.684836Z",
+    "image_count": 6,
     "valid_pixel_count": 2216,
     "ndvi_mean": 0.3128,
     "ndvi_percent": 31.3,
@@ -36,7 +36,7 @@
       "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
       "hsi": "deterministic generic wetland indicator"
     },
-    "as_of": "2026-09-20",
+    "as_of": "2026-09-21",
     "window_days": 16
   },
   "uiPayload": {
@@ -44,22 +44,22 @@
     "ndvi_label": "植被丰度偏低",
     "ndvi_delta": 57.2,
     "ndvi_delta_text": "较上月 +57.2%",
-    "ndvi_as_of": "2026-09-20",
+    "ndvi_as_of": "2026-09-21",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-09-20",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-21",
     "hsi_score": 30.9,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
     "hsi_trend": "up",
-    "hsi_as_of": "2026-09-20",
+    "hsi_as_of": "2026-09-21",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-09-20",
+    "hsi_cadence_label": "近16日合成 · 2026-09-21",
     "mudflat_exposure_percent": 5.2,
     "vegetation_cover_percent": 68.4,
     "water_cover_percent": 25.1,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-09-21T16:05:31.937991Z",
+    "updated_at": "2026-09-22T04:41:32.684836Z",
     "series_end_month": "2026-08"
   },
   "coreData": {
@@ -77,7 +77,7 @@
     "water_cover_percent": 1.0,
     "data_source": "gee-sentinel2-monthly",
     "updated_at": "2026-09-20T06:52:48.857394Z",
-    "ring_as_of": "2026-09-20",
+    "ring_as_of": "2026-09-21",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
