@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790126126003,
-  "generatedAt": "2026-09-23T01:15:26.003937Z",
+  "timestamp": 1790212537370,
+  "generatedAt": "2026-09-24T01:15:37.370650Z",
   "stationId": "S21",
   "stationName": "长山群岛候鸟栖息地",
   "eaafId": null,
@@ -13,13 +13,13 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-08",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-22"
+    "ring_as_of": "2026-09-23"
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-island-reef-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-09-23T01:15:26.003937Z",
+    "generated_at": "2026-09-24T01:15:37.370650Z",
     "image_count": 4,
     "valid_pixel_count": 907,
     "ndvi_mean": -0.4944,
@@ -43,7 +43,7 @@
       "mudflat_exposure": "N/A for island_reef; intentionally null",
       "hsi": "island_reef_hsi_v1 (no mudflat weight)"
     },
-    "as_of": "2026-09-22",
+    "as_of": "2026-09-23",
     "window_days": 16
   },
   "uiPayload": {
@@ -52,16 +52,16 @@
     "ndvi_label": "陆域植被偏低 / 岩礁裸露",
     "ndvi_delta": -14.3,
     "ndvi_delta_text": "较上月 -14.3%",
-    "ndvi_as_of": "2026-09-22",
+    "ndvi_as_of": "2026-09-23",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-09-22",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-23",
     "hsi_score": 33.9,
     "hsi_level": "poor",
     "hsi_label": "较差 · 岛礁承载力偏低",
     "hsi_trend": "up",
-    "hsi_as_of": "2026-09-22",
+    "hsi_as_of": "2026-09-23",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-09-22",
+    "hsi_cadence_label": "近16日合成 · 2026-09-23",
     "mudflat_exposure_percent": null,
     "rocky_intertidal_frac_percent": 0.0,
     "vegetation_cover_percent": 0.0,
@@ -69,7 +69,7 @@
     "nearshore_water_frac_percent": 97.0,
     "data_source": "gee-sentinel2-island-reef-monthly",
     "data_source_label": "GEE · 岛礁 AOI · 近16日真值",
-    "updated_at": "2026-09-23T01:15:26.003937Z",
+    "updated_at": "2026-09-24T01:15:37.370650Z",
     "series_end_month": "2026-08",
     "series_start_month": "2023-03",
     "series_window_months": 42
@@ -91,7 +91,7 @@
     "data_source": "gee-sentinel2-island-reef-monthly",
     "formula_version": "island-reef-hsi-v1",
     "updated_at": "2026-09-20T05:53:47.473799Z",
-    "ring_as_of": "2026-09-22",
+    "ring_as_of": "2026-09-23",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
@@ -1765,7 +1765,7 @@
       "reuse_S03_aoi_for_S22",
       "month_series_end_as_ring_truth_when_recent_available"
     ],
-    "generated_at": "2026-09-23T01:15:26.003937Z",
+    "generated_at": "2026-09-24T01:15:37.370650Z",
     "note": "S21 partial（仅矾坨子）直至四分量官方点齐；S22 工作 AOI 待保护区官方界替换。均为站址 AOI 重跑，非邻站克隆。"
   },
   "runReport": {
@@ -1775,7 +1775,7 @@
     "failures": [],
     "replace": false,
     "ring_only": true,
-    "ring_as_of": "2026-09-22",
+    "ring_as_of": "2026-09-23",
     "ring_ndvi": -0.4944,
     "ring_hsi": 33.9
   }
