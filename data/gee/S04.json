@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790211605384,
-  "generatedAt": "2026-09-24T01:00:05.384135Z",
+  "timestamp": 1790298007469,
+  "generatedAt": "2026-09-25T01:00:07.469586Z",
   "stationId": "S04",
   "stationName": "盐城湿地（条子泥）",
   "eaafId": "EAAF005",
@@ -12,13 +12,13 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-08",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-23"
+    "ring_as_of": "2026-09-24"
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-monthly-wdpa1606",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-09-24T01:00:05.384135Z",
+    "generated_at": "2026-09-25T01:00:07.469586Z",
     "image_count": 9,
     "valid_pixel_count": 599887,
     "ndvi_mean": -0.188,
@@ -37,7 +37,7 @@
       "hsi": "deterministic generic wetland indicator",
       "aoi": "wdpa_1606_multipart_polygons"
     },
-    "as_of": "2026-09-23",
+    "as_of": "2026-09-24",
     "window_days": 16,
     "aoi_policy": "wdpa_1606_multipart_polygons",
     "reduce_scale_m": 60
@@ -47,22 +47,22 @@
     "ndvi_label": "植被丰度偏低",
     "ndvi_delta": 0.0,
     "ndvi_delta_text": "较上月 持平",
-    "ndvi_as_of": "2026-09-23",
+    "ndvi_as_of": "2026-09-24",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-09-23",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-24",
     "hsi_score": 16.2,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
     "hsi_trend": "flat",
-    "hsi_as_of": "2026-09-23",
+    "hsi_as_of": "2026-09-24",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-09-23",
+    "hsi_cadence_label": "近16日合成 · 2026-09-24",
     "mudflat_exposure_percent": 1.6,
     "vegetation_cover_percent": 3.5,
     "water_cover_percent": 95.0,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-09-24T01:00:05.384135Z",
+    "updated_at": "2026-09-25T01:00:07.469586Z",
     "series_end_month": "2026-08",
     "series_start_month": "2023-03",
     "series_window_months": 42
@@ -82,7 +82,7 @@
     "water_cover_percent": 85.5,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "updated_at": "2026-09-20T05:27:32.293250Z",
-    "ring_as_of": "2026-09-23",
+    "ring_as_of": "2026-09-24",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
