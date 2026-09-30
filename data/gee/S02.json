@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790559006873,
-  "generatedAt": "2026-09-28T01:30:06.873739Z",
+  "timestamp": 1790731810616,
+  "generatedAt": "2026-09-30T01:30:10.616650Z",
   "stationId": "S02",
   "stationName": "香港米埔",
   "eaafId": "EAAF003",
@@ -12,13 +12,13 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-08",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-27"
+    "ring_as_of": "2026-09-29"
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-09-28T01:30:06.873739Z",
+    "generated_at": "2026-09-30T01:30:10.616650Z",
     "image_count": 8,
     "valid_pixel_count": 2102,
     "ndvi_mean": 0.7518,
@@ -36,7 +36,7 @@
       "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
       "hsi": "deterministic generic wetland indicator"
     },
-    "as_of": "2026-09-27",
+    "as_of": "2026-09-29",
     "window_days": 16
   },
   "uiPayload": {
@@ -44,22 +44,22 @@
     "ndvi_label": "植被丰度较高",
     "ndvi_delta": -0.1,
     "ndvi_delta_text": "较上月 -0.1%",
-    "ndvi_as_of": "2026-09-27",
+    "ndvi_as_of": "2026-09-29",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-09-27",
+    "ndvi_cadence_label": "近16日合成 · 2026-09-29",
     "hsi_score": 46.1,
     "hsi_level": "good",
     "hsi_label": "良好 · 持续监测",
     "hsi_trend": "up",
-    "hsi_as_of": "2026-09-27",
+    "hsi_as_of": "2026-09-29",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-09-27",
+    "hsi_cadence_label": "近16日合成 · 2026-09-29",
     "mudflat_exposure_percent": 0.0,
     "vegetation_cover_percent": 88.2,
     "water_cover_percent": 12.1,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-09-28T01:30:06.873739Z",
+    "updated_at": "2026-09-30T01:30:10.616650Z",
     "series_end_month": "2026-08"
   },
   "coreData": {
@@ -77,7 +77,7 @@
     "water_cover_percent": 1.7,
     "data_source": "gee-sentinel2-monthly",
     "updated_at": "2026-09-20T06:52:48.857394Z",
-    "ring_as_of": "2026-09-27",
+    "ring_as_of": "2026-09-29",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
