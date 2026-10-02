@@ -1,24 +1,25 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790904605912,
-  "generatedAt": "2026-10-02T01:30:05.912029Z",
+  "timestamp": 1790910376758,
+  "generatedAt": "2026-10-02T03:06:16.758515Z",
   "stationId": "S19",
   "stationName": "南矶山湿地",
   "eaafId": "EAAF087",
   "dataSource": "gee-sentinel2-monthly",
-  "selectedMonth": "2026-08",
+  "selectedMonth": "2026-09",
   "opticsCadence": {
     "series": "monthly_previous_complete",
-    "series_end": "2026-08",
+    "series_end": "2026-09",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-10-01"
+    "ring_as_of": "2026-10-01",
+    "ring_lag_days": 1
   },
   "recentSnapshot": {
     "month": "2026-10",
     "source": "gee-sentinel2-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-02T01:30:05.912029Z",
+    "generated_at": "2026-10-02T03:06:16.758515Z",
     "image_count": 6,
     "valid_pixel_count": 2218,
     "ndvi_mean": 0.4717,
@@ -37,46 +38,62 @@
       "hsi": "deterministic generic wetland indicator"
     },
     "as_of": "2026-10-01",
-    "window_days": 16
+    "window_days": 16,
+    "ring_quality": {
+      "window_start": "2026-09-16",
+      "window_end": "2026-10-01",
+      "lag_days": 1,
+      "max_lookback_days": 14,
+      "cloud_threshold_pct": 80.0,
+      "image_count": 6,
+      "valid_pixel_count": 2218,
+      "skipped_windows": [],
+      "policy": "latest_clear_16d_window_within_lookback;no_neighbor_clone;no_month_as_ring"
+    }
   },
   "uiPayload": {
     "ndvi_percent": 47.2,
     "ndvi_label": "植被丰度适中",
-    "ndvi_delta": 57.2,
-    "ndvi_delta_text": "较上月 +57.2%",
+    "ndvi_delta": -16.1,
+    "ndvi_delta_text": "较上月 -16.1%",
     "ndvi_as_of": "2026-10-01",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-10-01",
+    "ring_lag_days": 1,
+    "ring_image_count": 6,
+    "ring_quality_note": "近16日晴空合成，截至 UTC 昨天；影像 6 景",
     "hsi_score": 36.2,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
-    "hsi_trend": "up",
+    "hsi_trend": "down",
     "hsi_as_of": "2026-10-01",
     "hsi_cadence": "rolling_composite",
     "hsi_cadence_label": "近16日合成 · 2026-10-01",
+    "hsi_formula_version": "wetland-hsi-v1",
+    "hsi_formula_note": "生境适宜度指数（wetland-hsi-v1，点缓冲 AOI）：Sentinel-2 观测推导的确定性指标；非鸟类出现概率，非经验证的生境健康预报。",
     "mudflat_exposure_percent": 1.6,
     "vegetation_cover_percent": 91.6,
     "water_cover_percent": 0.0,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-10-02T01:30:05.912029Z",
-    "series_end_month": "2026-08"
+    "updated_at": "2026-10-02T03:06:16.758515Z",
+    "series_end_month": "2026-09"
   },
   "coreData": {
     "available": true,
     "station_id": "S19",
-    "selected_month": "2026-08",
-    "ndvi": 0.5725,
-    "ndvi_percent": 57.2,
+    "selected_month": "2026-09",
+    "ndvi": 0.4107,
+    "ndvi_percent": 41.1,
     "ndvi_status": "植被丰度适中",
-    "hsi_score": 39.8,
+    "hsi_score": 34.6,
     "hsi_level": "poor",
-    "hsi_trend": "up",
-    "mudflat_exposure_percent": 2.8,
-    "vegetation_cover_percent": 90.4,
-    "water_cover_percent": 1.0,
+    "hsi_trend": "down",
+    "mudflat_exposure_percent": 7.6,
+    "vegetation_cover_percent": 77.7,
+    "water_cover_percent": 11.3,
     "data_source": "gee-sentinel2-monthly",
-    "updated_at": "2026-09-20T06:52:48.857394Z",
+    "updated_at": "2026-10-02T03:06:16.758515Z",
     "ring_as_of": "2026-10-01",
     "ring_cadence": "rolling_composite"
   },
@@ -125,7 +142,8 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "values": [
         0.252,
@@ -169,16 +187,17 @@
         0.2184,
         0.0163,
         -0.0973,
-        0.5725
+        0.5725,
+        0.4107
       ],
-      "calendarMonthCount": 42,
-      "observedMonthCount": 40,
+      "calendarMonthCount": 43,
+      "observedMonthCount": 41,
       "missingMonths": [
         "2023-06",
         "2024-06"
       ],
       "dataSource": "gee-sentinel2-monthly",
-      "seriesEndMonth": "2026-08"
+      "seriesEndMonth": "2026-09"
     },
     "habitat": {
       "categories": [
@@ -223,7 +242,8 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "vegetation_cover_percent": [
         58.6,
@@ -267,7 +287,8 @@
         59.7,
         12.9,
         41.0,
-        90.4
+        90.4,
+        77.7
       ],
       "mudflat_exposure_percent": [
         5.4,
@@ -311,7 +332,8 @@
         2.1,
         74.1,
         2.6,
-        2.8
+        2.8,
+        7.6
       ],
       "water_cover_percent": [
         0.0,
@@ -355,7 +377,8 @@
         36.6,
         12.9,
         54.6,
-        1.0
+        1.0,
+        11.3
       ],
       "hsi_score": [
         22.8,
@@ -399,9 +422,10 @@
         26.7,
         27.1,
         18.4,
-        39.8
+        39.8,
+        34.6
       ],
-      "seriesEndMonth": "2026-08"
+      "seriesEndMonth": "2026-09"
     }
   },
   "observations": [
@@ -1315,6 +1339,29 @@
       "mudflat_exposure_percent": 2.8,
       "water_cover_percent": 1.0,
       "hsi_score": 39.8,
+      "hsi_level": "poor",
+      "hsi_label": "较差 · 生境承载力偏低",
+      "formula_version": "wetland-hsi-v1",
+      "metric_notes": {
+        "ndvi": "actual monthly mean NDVI",
+        "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+        "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+        "hsi": "deterministic generic wetland indicator"
+      }
+    },
+    {
+      "month": "2026-09",
+      "source": "gee-sentinel2-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-10-02T03:06:16.758515Z",
+      "image_count": 11,
+      "valid_pixel_count": 2222,
+      "ndvi_mean": 0.4107,
+      "ndvi_percent": 41.1,
+      "vegetation_cover_percent": 77.7,
+      "mudflat_exposure_percent": 7.6,
+      "water_cover_percent": 11.3,
+      "hsi_score": 34.6,
       "hsi_level": "poor",
       "hsi_label": "较差 · 生境承载力偏低",
       "formula_version": "wetland-hsi-v1",
