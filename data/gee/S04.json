@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790835682160,
-  "generatedAt": "2026-10-01T06:21:22.160258Z",
+  "timestamp": 1790902805036,
+  "generatedAt": "2026-10-02T01:00:05.036431Z",
   "stationId": "S04",
   "stationName": "盐城湿地（条子泥）",
   "eaafId": "EAAF005",
@@ -18,7 +18,7 @@
     "month": "2026-09",
     "source": "gee-sentinel2-monthly-wdpa1606",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-01T06:21:22.160258Z",
+    "generated_at": "2026-10-02T01:00:05.036431Z",
     "image_count": 2,
     "valid_pixel_count": 102331,
     "ndvi_mean": -0.0423,
@@ -62,7 +62,7 @@
     "water_cover_percent": 76.9,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-10-01T06:21:22.160258Z",
+    "updated_at": "2026-10-02T01:00:05.036431Z",
     "series_end_month": "2026-08",
     "series_start_month": "2023-03",
     "series_window_months": 42
