@@ -1,25 +1,26 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790903705281,
-  "generatedAt": "2026-10-02T01:15:05.281409Z",
+  "timestamp": 1790908208706,
+  "generatedAt": "2026-10-02T02:30:08.706746Z",
   "stationId": "S22",
   "stationName": "蛇岛—老铁山",
   "eaafId": null,
   "dataSource": "gee-sentinel2-island-reef-monthly",
-  "selectedMonth": "2026-08",
+  "selectedMonth": "2026-09",
   "habitatProfile": "island_reef",
   "opticsCadence": {
     "series": "monthly_previous_complete",
-    "series_end": "2026-08",
+    "series_end": "2026-09",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-10-01"
+    "ring_as_of": "2026-10-01",
+    "ring_lag_days": 1
   },
   "recentSnapshot": {
     "month": "2026-10",
     "source": "gee-sentinel2-island-reef-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-02T01:15:05.281409Z",
+    "generated_at": "2026-10-02T02:30:08.706746Z",
     "image_count": 5,
     "valid_pixel_count": 137663,
     "ndvi_mean": 0.5275,
@@ -44,17 +45,31 @@
       "hsi": "island_reef_hsi_v1 (no mudflat weight)"
     },
     "as_of": "2026-10-01",
-    "window_days": 16
+    "window_days": 16,
+    "ring_quality": {
+      "window_start": "2026-09-16",
+      "window_end": "2026-10-01",
+      "lag_days": 1,
+      "max_lookback_days": 14,
+      "cloud_threshold_pct": 80.0,
+      "image_count": 5,
+      "valid_pixel_count": 137663,
+      "skipped_windows": [],
+      "policy": "latest_clear_16d_window_within_lookback;no_neighbor_clone;no_month_as_ring"
+    }
   },
   "uiPayload": {
     "ndvi_percent": 52.8,
     "ndvi_mean": 0.5275,
     "ndvi_label": "陆域植被适中",
-    "ndvi_delta": 0.8,
-    "ndvi_delta_text": "较上月 +0.8%",
+    "ndvi_delta": 0.1,
+    "ndvi_delta_text": "较上月 +0.1%",
     "ndvi_as_of": "2026-10-01",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-10-01",
+    "ring_lag_days": 1,
+    "ring_image_count": 5,
+    "ring_quality_note": "近16日晴空合成，截至 UTC 昨天；影像 5 景",
     "hsi_score": 50.7,
     "hsi_level": "good",
     "hsi_label": "良好 · 持续监测",
@@ -62,6 +77,8 @@
     "hsi_as_of": "2026-10-01",
     "hsi_cadence": "rolling_composite",
     "hsi_cadence_label": "近16日合成 · 2026-10-01",
+    "hsi_formula_version": "island-reef-hsi-v1",
+    "hsi_formula_note": "生境适宜度指数（island_reef_hsi_v1，无泥滩权重）：Sentinel-2 观测推导的确定性指标；非鸟类出现概率，非经验证的生境健康预报。",
     "mudflat_exposure_percent": null,
     "rocky_intertidal_frac_percent": 1.0,
     "vegetation_cover_percent": 76.9,
@@ -69,28 +86,28 @@
     "nearshore_water_frac_percent": 57.3,
     "data_source": "gee-sentinel2-island-reef-monthly",
     "data_source_label": "GEE · 岛礁 AOI · 近16日真值",
-    "updated_at": "2026-10-02T01:15:05.281409Z",
-    "series_end_month": "2026-08",
-    "series_start_month": "2023-03",
+    "updated_at": "2026-10-02T02:30:08.706746Z",
+    "series_end_month": "2026-09",
+    "series_start_month": "2023-04",
     "series_window_months": 42
   },
   "coreData": {
     "available": true,
     "station_id": "S22",
-    "selected_month": "2026-08",
-    "ndvi": 0.5694,
-    "ndvi_percent": 56.9,
+    "selected_month": "2026-09",
+    "ndvi": 0.5703,
+    "ndvi_percent": 57.0,
     "ndvi_status": "陆域植被适中",
-    "hsi_score": 55.9,
+    "hsi_score": 50.9,
     "hsi_level": "good",
     "hsi_trend": "down",
     "mudflat_exposure_percent": null,
-    "rocky_intertidal_frac_percent": 18.4,
-    "vegetation_cover_percent": 76.8,
-    "water_cover_percent": 57.1,
+    "rocky_intertidal_frac_percent": 1.2,
+    "vegetation_cover_percent": 77.0,
+    "water_cover_percent": 57.4,
     "data_source": "gee-sentinel2-island-reef-monthly",
     "formula_version": "island-reef-hsi-v1",
-    "updated_at": "2026-09-20T05:53:49.865412Z",
+    "updated_at": "2026-10-02T02:30:08.706746Z",
     "ring_as_of": "2026-10-01",
     "ring_cadence": "rolling_composite"
   },
@@ -98,7 +115,6 @@
     "gee": {
       "metric": "land_only_NDVI",
       "categories": [
-        "2023-03",
         "2023-04",
         "2023-05",
         "2023-06",
@@ -139,10 +155,10 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "values": [
-        0.3131,
         0.3798,
         0.4893,
         0.5488,
@@ -183,19 +199,19 @@
         0.5263,
         0.576,
         0.5612,
-        0.5694
+        0.5694,
+        0.5703
       ],
       "calendarMonthCount": 42,
       "observedMonthCount": 42,
       "missingMonths": [],
       "dataSource": "gee-sentinel2-island-reef-monthly",
-      "seriesEndMonth": "2026-08",
-      "seriesStartMonth": "2023-03",
+      "seriesEndMonth": "2026-09",
+      "seriesStartMonth": "2023-04",
       "seriesWindowMonths": 42
     },
     "habitat": {
       "categories": [
-        "2023-03",
         "2023-04",
         "2023-05",
         "2023-06",
@@ -236,10 +252,10 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "vegetation_cover_percent": [
-        73.2,
         75.1,
         76.0,
         76.4,
@@ -280,7 +296,8 @@
         76.6,
         77.0,
         76.8,
-        76.8
+        76.8,
+        77.0
       ],
       "mudflat_exposure_percent": [
         null,
@@ -327,7 +344,6 @@
         null
       ],
       "rocky_intertidal_frac_percent": [
-        1.7,
         1.4,
         2.9,
         22.1,
@@ -368,10 +384,10 @@
         18.5,
         8.3,
         22.2,
-        18.4
+        18.4,
+        1.2
       ],
       "water_cover_percent": [
-        58.1,
         57.3,
         57.3,
         57.1,
@@ -412,10 +428,10 @@
         57.2,
         57.1,
         57.3,
-        57.1
+        57.1,
+        57.4
       ],
       "nearshore_water_frac_percent": [
-        58.1,
         57.3,
         57.3,
         57.1,
@@ -456,10 +472,10 @@
         57.2,
         57.1,
         57.3,
-        57.1
+        57.1,
+        57.4
       ],
       "hsi_score": [
-        48.3,
         50.0,
         51.1,
         56.9,
@@ -500,43 +516,15 @@
         55.9,
         52.9,
         57.1,
-        55.9
+        55.9,
+        50.9
       ],
-      "seriesEndMonth": "2026-08",
-      "seriesStartMonth": "2023-03",
+      "seriesEndMonth": "2026-09",
+      "seriesStartMonth": "2023-04",
       "seriesWindowMonths": 42
     }
   },
   "observations": [
-    {
-      "month": "2023-03",
-      "source": "gee-sentinel2-island-reef-monthly",
-      "quality": "observed-monthly-composite",
-      "generated_at": "2026-09-18T00:56:50.437626Z",
-      "image_count": 10,
-      "valid_pixel_count": 135766,
-      "ndvi_mean": 0.3131,
-      "ndvi_percent": 31.3,
-      "land_only_ndvi": 0.3131,
-      "vegetation_cover_percent": 73.2,
-      "veg_cover_land_percent": 73.2,
-      "rocky_intertidal_frac_percent": 1.7,
-      "nearshore_water_frac_percent": 58.1,
-      "mudflat_exposure_percent": null,
-      "water_cover_percent": 58.1,
-      "hsi_score": 48.3,
-      "hsi_level": "good",
-      "hsi_label": "良好 · 持续监测",
-      "formula_version": "island-reef-hsi-v1",
-      "metric_notes": {
-        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
-        "vegetation_cover": "land pixels with NDVI > 0.2",
-        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
-        "nearshore_water_frac": "200–500m fringe water fraction",
-        "mudflat_exposure": "N/A for island_reef; intentionally null",
-        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
-      }
-    },
     {
       "month": "2023-04",
       "source": "gee-sentinel2-island-reef-monthly",
@@ -1725,6 +1713,35 @@
         "mudflat_exposure": "N/A for island_reef; intentionally null",
         "hsi": "island_reef_hsi_v1 (no mudflat weight)"
       }
+    },
+    {
+      "month": "2026-09",
+      "source": "gee-sentinel2-island-reef-monthly",
+      "quality": "observed-monthly-composite",
+      "generated_at": "2026-10-02T02:30:08.706746Z",
+      "image_count": 12,
+      "valid_pixel_count": 137488,
+      "ndvi_mean": 0.5703,
+      "ndvi_percent": 57.0,
+      "land_only_ndvi": 0.5703,
+      "vegetation_cover_percent": 77.0,
+      "veg_cover_land_percent": 77.0,
+      "rocky_intertidal_frac_percent": 1.2,
+      "nearshore_water_frac_percent": 57.4,
+      "mudflat_exposure_percent": null,
+      "water_cover_percent": 57.4,
+      "hsi_score": 50.9,
+      "hsi_level": "good",
+      "hsi_label": "良好 · 持续监测",
+      "formula_version": "island-reef-hsi-v1",
+      "metric_notes": {
+        "ndvi": "land_only NDVI on island/coast AOI (SCL land mask)",
+        "vegetation_cover": "land pixels with NDVI > 0.2",
+        "rocky_intertidal_frac": "spectral rocky/wet-bare proxy on land AOI",
+        "nearshore_water_frac": "200–500m fringe water fraction",
+        "mudflat_exposure": "N/A for island_reef; intentionally null",
+        "hsi": "island_reef_hsi_v1 (no mudflat weight)"
+      }
     }
   ],
   "provenance": {
@@ -1773,16 +1790,20 @@
       "reuse_S03_aoi_for_S22",
       "month_series_end_as_ring_truth_when_recent_available"
     ],
-    "generated_at": "2026-10-02T01:15:05.281409Z",
+    "generated_at": "2026-10-02T02:30:08.706746Z",
     "note": "S21 partial（仅矾坨子）直至四分量官方点齐；S22 工作 AOI 待保护区官方界替换。均为站址 AOI 重跑，非邻站克隆。"
   },
   "runReport": {
-    "requested_months": [],
-    "ok_months": [],
-    "merged_total_months": 42,
+    "requested_months": [
+      "2026-09"
+    ],
+    "ok_months": [
+      "2026-09"
+    ],
+    "merged_total_months": 43,
     "failures": [],
     "replace": false,
-    "ring_only": true,
+    "ring_only": false,
     "ring_as_of": "2026-10-01",
     "ring_ndvi": 0.5275,
     "ring_hsi": 50.7
