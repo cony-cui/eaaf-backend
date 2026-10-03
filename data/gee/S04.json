@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790904605948,
-  "generatedAt": "2026-10-02T01:30:05.948675Z",
+  "timestamp": 1790989205455,
+  "generatedAt": "2026-10-03T01:00:05.455145Z",
   "stationId": "S04",
   "stationName": "盐城湿地（条子泥）",
   "eaafId": "EAAF005",
@@ -12,13 +12,14 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-09",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-09-29"
+    "ring_as_of": "2026-09-29",
+    "ring_lag_days": 4
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-monthly-wdpa1606",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-02T01:30:05.948675Z",
+    "generated_at": "2026-10-03T01:00:05.455145Z",
     "image_count": 2,
     "valid_pixel_count": 102331,
     "ndvi_mean": -0.0423,
@@ -40,7 +41,31 @@
     "as_of": "2026-09-29",
     "window_days": 16,
     "aoi_policy": "wdpa_1606_multipart_polygons",
-    "reduce_scale_m": 60
+    "reduce_scale_m": 60,
+    "ring_quality": {
+      "window_start": "2026-09-14",
+      "window_end": "2026-09-29",
+      "lag_days": 4,
+      "max_lookback_days": 14,
+      "cloud_threshold_pct": 60.0,
+      "image_count": 2,
+      "valid_pixel_count": 102331,
+      "skipped_windows": [
+        {
+          "as_of": "2026-10-02",
+          "reason": "no-scenes"
+        },
+        {
+          "as_of": "2026-10-01",
+          "reason": "no-scenes"
+        },
+        {
+          "as_of": "2026-09-30",
+          "reason": "no-scenes"
+        }
+      ],
+      "policy": "latest_clear_16d_window_within_lookback;no_neighbor_clone;no_month_as_ring"
+    }
   },
   "uiPayload": {
     "ndvi_percent": -4.2,
@@ -50,6 +75,9 @@
     "ndvi_as_of": "2026-09-29",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-09-29",
+    "ring_lag_days": 4,
+    "ring_image_count": 2,
+    "ring_quality_note": "最近 3 天窗口无有效晴空影像（no-scenes），环图取最近一个有观测的 16 日窗；影像 2 景",
     "hsi_score": 18.2,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
@@ -57,12 +85,14 @@
     "hsi_as_of": "2026-09-29",
     "hsi_cadence": "rolling_composite",
     "hsi_cadence_label": "近16日合成 · 2026-09-29",
+    "hsi_formula_version": "wetland-hsi-v1",
+    "hsi_formula_note": "生境适宜度指数（wetland-hsi-v1）：Sentinel-2 观测推导的确定性指标；非鸟类出现概率，非经验证的生境健康预报。",
     "mudflat_exposure_percent": 9.9,
     "vegetation_cover_percent": 14.7,
     "water_cover_percent": 76.9,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-10-02T01:30:05.948675Z",
+    "updated_at": "2026-10-03T01:00:05.455145Z",
     "series_end_month": "2026-09",
     "series_start_month": "2023-04",
     "series_window_months": 42
