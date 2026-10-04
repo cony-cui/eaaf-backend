@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1790989205455,
-  "generatedAt": "2026-10-03T01:00:05.455145Z",
+  "timestamp": 1791075605804,
+  "generatedAt": "2026-10-04T01:00:05.804034Z",
   "stationId": "S04",
   "stationName": "盐城湿地（条子泥）",
   "eaafId": "EAAF005",
@@ -13,13 +13,13 @@
     "series_end": "2026-09",
     "ring": "rolling_composite",
     "ring_as_of": "2026-09-29",
-    "ring_lag_days": 4
+    "ring_lag_days": 5
   },
   "recentSnapshot": {
     "month": "2026-09",
     "source": "gee-sentinel2-monthly-wdpa1606",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-03T01:00:05.455145Z",
+    "generated_at": "2026-10-04T01:00:05.804034Z",
     "image_count": 2,
     "valid_pixel_count": 102331,
     "ndvi_mean": -0.0423,
@@ -45,12 +45,16 @@
     "ring_quality": {
       "window_start": "2026-09-14",
       "window_end": "2026-09-29",
-      "lag_days": 4,
+      "lag_days": 5,
       "max_lookback_days": 14,
       "cloud_threshold_pct": 60.0,
       "image_count": 2,
       "valid_pixel_count": 102331,
       "skipped_windows": [
+        {
+          "as_of": "2026-10-03",
+          "reason": "no-scenes"
+        },
         {
           "as_of": "2026-10-02",
           "reason": "no-scenes"
@@ -75,9 +79,9 @@
     "ndvi_as_of": "2026-09-29",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-09-29",
-    "ring_lag_days": 4,
+    "ring_lag_days": 5,
     "ring_image_count": 2,
-    "ring_quality_note": "最近 3 天窗口无有效晴空影像（no-scenes），环图取最近一个有观测的 16 日窗；影像 2 景",
+    "ring_quality_note": "最近 4 天窗口无有效晴空影像（no-scenes），环图取最近一个有观测的 16 日窗；影像 2 景",
     "hsi_score": 18.2,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
@@ -92,7 +96,7 @@
     "water_cover_percent": 76.9,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-10-03T01:00:05.455145Z",
+    "updated_at": "2026-10-04T01:00:05.804034Z",
     "series_end_month": "2026-09",
     "series_start_month": "2023-04",
     "series_window_months": 42
