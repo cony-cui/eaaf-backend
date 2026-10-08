@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1791335713500,
-  "generatedAt": "2026-10-07T01:15:13.500139Z",
+  "timestamp": 1791422127004,
+  "generatedAt": "2026-10-08T01:15:27.004443Z",
   "stationId": "S21",
   "stationName": "长山群岛候鸟栖息地",
   "eaafId": null,
@@ -13,14 +13,14 @@
     "series": "monthly_previous_complete",
     "series_end": "2026-09",
     "ring": "rolling_composite",
-    "ring_as_of": "2026-10-06",
+    "ring_as_of": "2026-10-07",
     "ring_lag_days": 1
   },
   "recentSnapshot": {
     "month": "2026-10",
     "source": "gee-sentinel2-island-reef-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-10-07T01:15:13.500139Z",
+    "generated_at": "2026-10-08T01:15:27.004443Z",
     "image_count": 3,
     "valid_pixel_count": 907,
     "ndvi_mean": -0.5319,
@@ -44,11 +44,11 @@
       "mudflat_exposure": "N/A for island_reef; intentionally null",
       "hsi": "island_reef_hsi_v1 (no mudflat weight)"
     },
-    "as_of": "2026-10-06",
+    "as_of": "2026-10-07",
     "window_days": 16,
     "ring_quality": {
-      "window_start": "2026-09-21",
-      "window_end": "2026-10-06",
+      "window_start": "2026-09-22",
+      "window_end": "2026-10-07",
       "lag_days": 1,
       "max_lookback_days": 14,
       "cloud_threshold_pct": 80.0,
@@ -64,9 +64,9 @@
     "ndvi_label": "陆域植被偏低 / 岩礁裸露",
     "ndvi_delta": -6.0,
     "ndvi_delta_text": "较上月 -6.0%",
-    "ndvi_as_of": "2026-10-06",
+    "ndvi_as_of": "2026-10-07",
     "ndvi_cadence": "rolling_composite",
-    "ndvi_cadence_label": "近16日合成 · 2026-10-06",
+    "ndvi_cadence_label": "近16日合成 · 2026-10-07",
     "ring_lag_days": 1,
     "ring_image_count": 3,
     "ring_quality_note": "近16日晴空合成，截至 UTC 昨天；影像 3 景",
@@ -74,9 +74,9 @@
     "hsi_level": "poor",
     "hsi_label": "较差 · 岛礁承载力偏低",
     "hsi_trend": "up",
-    "hsi_as_of": "2026-10-06",
+    "hsi_as_of": "2026-10-07",
     "hsi_cadence": "rolling_composite",
-    "hsi_cadence_label": "近16日合成 · 2026-10-06",
+    "hsi_cadence_label": "近16日合成 · 2026-10-07",
     "hsi_formula_version": "island-reef-hsi-v1",
     "hsi_formula_note": "生境适宜度指数（island_reef_hsi_v1，无泥滩权重）：Sentinel-2 观测推导的确定性指标；非鸟类出现概率，非经验证的生境健康预报。",
     "mudflat_exposure_percent": null,
@@ -86,7 +86,7 @@
     "nearshore_water_frac_percent": 97.3,
     "data_source": "gee-sentinel2-island-reef-monthly",
     "data_source_label": "GEE · 岛礁 AOI · 近16日真值",
-    "updated_at": "2026-10-07T01:15:13.500139Z",
+    "updated_at": "2026-10-08T01:15:27.004443Z",
     "series_end_month": "2026-09",
     "series_start_month": "2023-04",
     "series_window_months": 42
@@ -108,7 +108,7 @@
     "data_source": "gee-sentinel2-island-reef-monthly",
     "formula_version": "island-reef-hsi-v1",
     "updated_at": "2026-10-02T02:30:06.018075Z",
-    "ring_as_of": "2026-10-06",
+    "ring_as_of": "2026-10-07",
     "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
@@ -1782,7 +1782,7 @@
       "reuse_S03_aoi_for_S22",
       "month_series_end_as_ring_truth_when_recent_available"
     ],
-    "generated_at": "2026-10-07T01:15:13.500139Z",
+    "generated_at": "2026-10-08T01:15:27.004443Z",
     "note": "S21 partial（仅矾坨子）直至四分量官方点齐；S22 工作 AOI 待保护区官方界替换。均为站址 AOI 重跑，非邻站克隆。"
   },
   "runReport": {
@@ -1792,7 +1792,7 @@
     "failures": [],
     "replace": false,
     "ring_only": true,
-    "ring_as_of": "2026-10-06",
+    "ring_as_of": "2026-10-07",
     "ring_ndvi": -0.5319,
     "ring_hsi": 34.1
   }
