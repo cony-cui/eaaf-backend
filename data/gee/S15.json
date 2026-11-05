@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1793580008513,
-  "generatedAt": "2026-11-02T00:40:08.513107Z",
+  "timestamp": 1793842208817,
+  "generatedAt": "2026-11-05T01:30:08.817891Z",
   "stationId": "S15",
   "stationName": "安庆沿江湿地",
   "eaafId": "EAAF082",
@@ -11,29 +11,89 @@
   "opticsCadence": {
     "series": "monthly_previous_complete",
     "series_end": "2026-10",
-    "ring": "monthly_composite",
-    "ring_as_of": "2026-10",
-    "ring_lag_days": null
+    "ring": "rolling_composite",
+    "ring_as_of": "2026-10-29",
+    "ring_lag_days": 7
   },
-  "recentSnapshot": null,
+  "recentSnapshot": {
+    "month": "2026-10",
+    "source": "gee-sentinel2-monthly",
+    "quality": "observed-rolling-composite",
+    "generated_at": "2026-11-05T01:30:08.817891Z",
+    "image_count": 3,
+    "valid_pixel_count": 3254,
+    "ndvi_mean": -0.3843,
+    "ndvi_percent": -38.4,
+    "vegetation_cover_percent": 0.0,
+    "mudflat_exposure_percent": 0.0,
+    "water_cover_percent": 100.0,
+    "hsi_score": 15.8,
+    "hsi_level": "poor",
+    "hsi_label": "较差 · 生境承载力偏低",
+    "formula_version": "wetland-hsi-v1",
+    "metric_notes": {
+      "ndvi": "actual monthly mean NDVI",
+      "vegetation_cover": "fraction of valid pixels with NDVI > 0.2",
+      "mudflat_exposure": "Sentinel-2 spectral heuristic; not tide height",
+      "hsi": "deterministic generic wetland indicator"
+    },
+    "as_of": "2026-10-29",
+    "window_days": 16,
+    "ring_quality": {
+      "window_start": "2026-10-14",
+      "window_end": "2026-10-29",
+      "lag_days": 7,
+      "max_lookback_days": 14,
+      "cloud_threshold_pct": 80.0,
+      "image_count": 3,
+      "valid_pixel_count": 3254,
+      "skipped_windows": [
+        {
+          "as_of": "2026-11-04",
+          "reason": "masked-empty"
+        },
+        {
+          "as_of": "2026-11-03",
+          "reason": "masked-empty"
+        },
+        {
+          "as_of": "2026-11-02",
+          "reason": "masked-empty"
+        },
+        {
+          "as_of": "2026-11-01",
+          "reason": "masked-empty"
+        },
+        {
+          "as_of": "2026-10-31",
+          "reason": "masked-empty"
+        },
+        {
+          "as_of": "2026-10-30",
+          "reason": "masked-empty"
+        }
+      ],
+      "policy": "latest_clear_16d_window_within_lookback;no_neighbor_clone;no_month_as_ring"
+    }
+  },
   "uiPayload": {
-    "ndvi_percent": -41.2,
+    "ndvi_percent": -38.4,
     "ndvi_label": "植被丰度偏低",
     "ndvi_delta": -17.4,
     "ndvi_delta_text": "较上月 -17.4%",
-    "ndvi_as_of": "2026-10",
-    "ndvi_cadence": "monthly_composite",
-    "ndvi_cadence_label": "月合成 · 2026-10",
-    "ring_lag_days": null,
-    "ring_image_count": 7,
-    "ring_quality_note": "环图取月合成末值；近 16 日窗无有效观测",
+    "ndvi_as_of": "2026-10-29",
+    "ndvi_cadence": "rolling_composite",
+    "ndvi_cadence_label": "近16日合成 · 2026-10-29",
+    "ring_lag_days": 7,
+    "ring_image_count": 3,
+    "ring_quality_note": "最近 6 天窗口无有效晴空影像（masked-empty），环图取最近一个有观测的 16 日窗；影像 3 景",
     "hsi_score": 15.8,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
     "hsi_trend": "stable",
-    "hsi_as_of": "2026-10",
-    "hsi_cadence": "monthly_composite",
-    "hsi_cadence_label": "月合成 · 2026-10",
+    "hsi_as_of": "2026-10-29",
+    "hsi_cadence": "rolling_composite",
+    "hsi_cadence_label": "近16日合成 · 2026-10-29",
     "hsi_formula_version": "wetland-hsi-v1",
     "hsi_formula_note": "生境适宜度指数（wetland-hsi-v1，点缓冲 AOI）：Sentinel-2 观测推导的确定性指标；非鸟类出现概率，非经验证的生境健康预报。",
     "mudflat_exposure_percent": 0.0,
@@ -41,7 +101,7 @@
     "water_cover_percent": 100.0,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-11-02T00:40:08.513107Z",
+    "updated_at": "2026-11-05T01:30:08.817891Z",
     "series_end_month": "2026-10"
   },
   "coreData": {
@@ -59,8 +119,8 @@
     "water_cover_percent": 100.0,
     "data_source": "gee-sentinel2-monthly",
     "updated_at": "2026-11-02T00:40:08.513107Z",
-    "ring_as_of": "2026-10",
-    "ring_cadence": "monthly_composite"
+    "ring_as_of": "2026-10-29",
+    "ring_cadence": "rolling_composite"
   },
   "chartsPayload": {
     "gee": {
