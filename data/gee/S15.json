@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1793842208817,
-  "generatedAt": "2026-11-05T01:30:08.817891Z",
+  "timestamp": 1793928609653,
+  "generatedAt": "2026-11-06T01:30:09.653191Z",
   "stationId": "S15",
   "stationName": "安庆沿江湿地",
   "eaafId": "EAAF082",
@@ -13,13 +13,13 @@
     "series_end": "2026-10",
     "ring": "rolling_composite",
     "ring_as_of": "2026-10-29",
-    "ring_lag_days": 7
+    "ring_lag_days": 8
   },
   "recentSnapshot": {
     "month": "2026-10",
     "source": "gee-sentinel2-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-11-05T01:30:08.817891Z",
+    "generated_at": "2026-11-06T01:30:09.653191Z",
     "image_count": 3,
     "valid_pixel_count": 3254,
     "ndvi_mean": -0.3843,
@@ -42,12 +42,16 @@
     "ring_quality": {
       "window_start": "2026-10-14",
       "window_end": "2026-10-29",
-      "lag_days": 7,
+      "lag_days": 8,
       "max_lookback_days": 14,
       "cloud_threshold_pct": 80.0,
       "image_count": 3,
       "valid_pixel_count": 3254,
       "skipped_windows": [
+        {
+          "as_of": "2026-11-05",
+          "reason": "masked-empty"
+        },
         {
           "as_of": "2026-11-04",
           "reason": "masked-empty"
@@ -84,9 +88,9 @@
     "ndvi_as_of": "2026-10-29",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-10-29",
-    "ring_lag_days": 7,
+    "ring_lag_days": 8,
     "ring_image_count": 3,
-    "ring_quality_note": "最近 6 天窗口无有效晴空影像（masked-empty），环图取最近一个有观测的 16 日窗；影像 3 景",
+    "ring_quality_note": "最近 7 天窗口无有效晴空影像（masked-empty），环图取最近一个有观测的 16 日窗；影像 3 景",
     "hsi_score": 15.8,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
@@ -101,7 +105,7 @@
     "water_cover_percent": 100.0,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-11-05T01:30:08.817891Z",
+    "updated_at": "2026-11-06T01:30:09.653191Z",
     "series_end_month": "2026-10"
   },
   "coreData": {
