@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1793926807507,
-  "generatedAt": "2026-11-06T01:00:07.507924Z",
+  "timestamp": 1794013209017,
+  "generatedAt": "2026-11-07T01:00:09.017812Z",
   "stationId": "S04",
   "stationName": "盐城湿地（条子泥）",
   "eaafId": "EAAF005",
@@ -13,13 +13,13 @@
     "series_end": "2026-10",
     "ring": "rolling_composite",
     "ring_as_of": "2026-11-05",
-    "ring_lag_days": 1
+    "ring_lag_days": 2
   },
   "recentSnapshot": {
     "month": "2026-11",
     "source": "gee-sentinel2-monthly-wdpa1606",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-11-06T01:00:07.507924Z",
+    "generated_at": "2026-11-07T01:00:09.017812Z",
     "image_count": 3,
     "valid_pixel_count": 302749,
     "ndvi_mean": -0.168,
@@ -45,12 +45,17 @@
     "ring_quality": {
       "window_start": "2026-10-21",
       "window_end": "2026-11-05",
-      "lag_days": 1,
+      "lag_days": 2,
       "max_lookback_days": 14,
       "cloud_threshold_pct": 60.0,
       "image_count": 3,
       "valid_pixel_count": 302749,
-      "skipped_windows": [],
+      "skipped_windows": [
+        {
+          "as_of": "2026-11-06",
+          "reason": "no-scenes"
+        }
+      ],
       "policy": "latest_clear_16d_window_within_lookback;no_neighbor_clone;no_month_as_ring"
     }
   },
@@ -62,9 +67,9 @@
     "ndvi_as_of": "2026-11-05",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-11-05",
-    "ring_lag_days": 1,
+    "ring_lag_days": 2,
     "ring_image_count": 3,
-    "ring_quality_note": "近16日晴空合成，截至 UTC 昨天；影像 3 景",
+    "ring_quality_note": "最近 1 天窗口无有效晴空影像（no-scenes），环图取最近一个有观测的 16 日窗；影像 3 景",
     "hsi_score": 16.5,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
@@ -79,7 +84,7 @@
     "water_cover_percent": 92.6,
     "data_source": "gee-sentinel2-monthly-wdpa1606",
     "data_source_label": "GEE · Sentinel-2 · WDPA 世遗界",
-    "updated_at": "2026-11-06T01:00:07.507924Z",
+    "updated_at": "2026-11-07T01:00:09.017812Z",
     "series_end_month": "2026-10",
     "series_start_month": "2023-05",
     "series_window_months": 42
