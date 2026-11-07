@@ -1,8 +1,8 @@
 {
   "status": "success",
   "schemaVersion": "1.0.0",
-  "timestamp": 1793928609653,
-  "generatedAt": "2026-11-06T01:30:09.653191Z",
+  "timestamp": 1794015006996,
+  "generatedAt": "2026-11-07T01:30:06.996538Z",
   "stationId": "S19",
   "stationName": "南矶山湿地",
   "eaafId": "EAAF087",
@@ -13,13 +13,13 @@
     "series_end": "2026-10",
     "ring": "rolling_composite",
     "ring_as_of": "2026-11-01",
-    "ring_lag_days": 5
+    "ring_lag_days": 6
   },
   "recentSnapshot": {
     "month": "2026-11",
     "source": "gee-sentinel2-monthly",
     "quality": "observed-rolling-composite",
-    "generated_at": "2026-11-06T01:30:09.653191Z",
+    "generated_at": "2026-11-07T01:30:06.996538Z",
     "image_count": 6,
     "valid_pixel_count": 1639,
     "ndvi_mean": 0.5262,
@@ -42,12 +42,16 @@
     "ring_quality": {
       "window_start": "2026-10-17",
       "window_end": "2026-11-01",
-      "lag_days": 5,
+      "lag_days": 6,
       "max_lookback_days": 14,
       "cloud_threshold_pct": 80.0,
       "image_count": 6,
       "valid_pixel_count": 1639,
       "skipped_windows": [
+        {
+          "as_of": "2026-11-06",
+          "reason": "masked-empty"
+        },
         {
           "as_of": "2026-11-05",
           "reason": "masked-empty"
@@ -76,9 +80,9 @@
     "ndvi_as_of": "2026-11-01",
     "ndvi_cadence": "rolling_composite",
     "ndvi_cadence_label": "近16日合成 · 2026-11-01",
-    "ring_lag_days": 5,
+    "ring_lag_days": 6,
     "ring_image_count": 6,
-    "ring_quality_note": "最近 4 天窗口无有效晴空影像（masked-empty），环图取最近一个有观测的 16 日窗；影像 6 景",
+    "ring_quality_note": "最近 5 天窗口无有效晴空影像（masked-empty），环图取最近一个有观测的 16 日窗；影像 6 景",
     "hsi_score": 38.5,
     "hsi_level": "poor",
     "hsi_label": "较差 · 生境承载力偏低",
@@ -93,7 +97,7 @@
     "water_cover_percent": 0.0,
     "data_source": "gee-sentinel2-monthly",
     "data_source_label": "GEE · Sentinel-2 月度数据",
-    "updated_at": "2026-11-06T01:30:09.653191Z",
+    "updated_at": "2026-11-07T01:30:06.996538Z",
     "series_end_month": "2026-10"
   },
   "coreData": {
